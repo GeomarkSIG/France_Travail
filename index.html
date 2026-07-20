@@ -12,6 +12,12 @@
   html, body { height: 100%; margin: 0; font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
   #map { position: absolute; inset: 0; }
 
+  /* Panneau en haut à gauche, contrôle des fonds de plan en haut à droite,
+     boutons de zoom déplacés en bas à droite : aucun de ces contrôles ne
+     se chevauche, sur mobile comme sur desktop. */
+  .leaflet-top.leaflet-right { top: 12px; }
+  .leaflet-bottom.leaflet-right { bottom: 12px; }
+
   #panel {
     position: absolute;
     top: 12px;
@@ -22,7 +28,10 @@
     box-shadow: 0 2px 10px rgba(0,0,0,0.2);
     padding: 12px 14px;
     max-width: 300px;
+    max-height: calc(100vh - 24px);
+    overflow-y: auto;
   }
+  #panel .panel-header { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
   #panel h1 { font-size: 15px; margin: 0 0 4px; }
   #panel .sub { font-size: 12px; color: #555; margin-bottom: 10px; }
   #panel label { display: block; font-size: 12px; font-weight: 600; margin-top: 8px; margin-bottom: 3px; }
@@ -33,27 +42,48 @@
   #count { font-size: 12px; margin-top: 10px; color: #333; }
   #updated { font-size: 11px; color: #888; margin-top: 4px; }
 
+  #toggle {
+    display: none;
+    border: none; background: #f0f0f0; border-radius: 6px;
+    width: 26px; height: 26px; font-size: 14px; line-height: 1; cursor: pointer;
+    flex: 0 0 auto;
+  }
+
   .popup-title { font-weight: 700; font-size: 13.5px; margin-bottom: 2px; }
   .popup-line { font-size: 12.5px; margin: 1px 0; }
   .popup-link { display: inline-block; margin-top: 6px; font-size: 12.5px; }
+
+  /* Mobile : panneau plus étroit et repliable pour ne pas envahir la carte
+     ni chevaucher les contrôles de zoom (déplacés en bas à droite). */
+  @media (max-width: 640px) {
+    #panel { max-width: min(78vw, 280px); padding: 10px 12px; }
+    #toggle { display: block; }
+    #panel.collapsed .panel-body { display: none; }
+    #panel.collapsed { max-width: none; width: auto; }
+  }
 </style>
 </head>
 <body>
 
 <div id="panel">
-  <h1>Offres d'emploi — La Réunion (974)</h1>
-  <div class="sub">Source : API France Travail</div>
+  <div class="panel-header">
+    <h1>Offres d'emploi — La Réunion (974)</h1>
+    <button id="toggle" type="button" aria-label="Afficher/masquer le panneau">▾</button>
+  </div>
+  <div class="panel-body">
+    <div class="sub">Source : API France Travail</div>
 
-  <label for="keyword">Recherche (intitulé)</label>
-  <input id="keyword" type="text" placeholder="ex : cuisinier, vente…" />
+    <label for="keyword">Recherche (intitulé)</label>
+    <input id="keyword" type="text" placeholder="ex : cuisinier, vente…" />
 
-  <label for="contrat">Type de contrat</label>
-  <select id="contrat">
-    <option value="">Tous</option>
-  </select>
+    <label for="contrat">Type de contrat</label>
+    <select id="contrat">
+      <option value="">Tous</option>
+    </select>
 
-  <div id="count">Chargement…</div>
-  <div id="updated"></div>
+    <div id="count">Chargement…</div>
+    <div id="updated"></div>
+  </div>
 </div>
 
 <div id="map"></div>
@@ -61,12 +91,54 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <script>
-  const map = L.map("map", { zoomControl: true }).setView([-21.115, 55.5364], 10);
+  const map = L.map("map", { zoomControl: false }).setView([-21.115, 55.5364], 10);
 
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  // Boutons de zoom en bas à droite : jamais sous le panneau (haut gauche)
+  // ni sous le sélecteur de fond de plan (haut droite).
+  L.control.zoom({ position: "bottomright" }).addTo(map);
+
+  const osm = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
     attribution: "&copy; OpenStreetMap contributors",
   }).addTo(map);
+
+  const googleSubdomains = ["mt0", "mt1", "mt2", "mt3"];
+  const googleAttribution = "&copy; Google";
+
+  const googleStreets = L.tileLayer("https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}", {
+    subdomains: googleSubdomains,
+    maxZoom: 20,
+    attribution: googleAttribution,
+  });
+
+  const googleSatellite = L.tileLayer("https://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}", {
+    subdomains: googleSubdomains,
+    maxZoom: 20,
+    attribution: googleAttribution,
+  });
+
+  L.control
+    .layers(
+      {
+        "Plan (OpenStreetMap)": osm,
+        "Google Maps": googleStreets,
+        "Google Satellite": googleSatellite,
+      },
+      {},
+      { position: "topright", collapsed: true }
+    )
+    .addTo(map);
+
+  const toggleBtn = document.getElementById("toggle");
+  const panel = document.getElementById("panel");
+  toggleBtn.addEventListener("click", () => {
+    const collapsed = panel.classList.toggle("collapsed");
+    toggleBtn.textContent = collapsed ? "▸" : "▾";
+  });
+  if (window.matchMedia("(max-width: 640px)").matches) {
+    panel.classList.add("collapsed");
+    toggleBtn.textContent = "▸";
+  }
 
   const clusterGroup = L.markerClusterGroup();
   let allFeatures = [];

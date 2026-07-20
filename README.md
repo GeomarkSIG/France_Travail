@@ -52,6 +52,15 @@ Actions via les secrets du dépôt).
    peut aussi être lancé manuellement depuis l'onglet Actions
    (« Run workflow »).
 
+## Fonds de plan
+
+La carte propose trois fonds de plan (sélecteur en haut à droite) :
+OpenStreetMap, Google Maps et Google Satellite. Les tuiles Google sont
+chargées via les URL `mt.google.com` habituellement utilisées par les
+projets Leaflet pour ce besoin ; il s'agit d'un usage non officiel (Google
+ne fournit pas ces tuiles pour un usage hors de son propre produit Maps),
+à garder en tête si le trafic devient important.
+
 ## Notes sur l'API
 
 - Le paramètre `commune` de l'API fait une recherche par rayon si
