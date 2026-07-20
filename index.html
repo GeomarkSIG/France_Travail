@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Carte des offres d'emploi — La Réunion (974)</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+<style>
+  :root { color-scheme: light; }
+  html, body { height: 100%; margin: 0; font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+  #map { position: absolute; inset: 0; }
+
+  #panel {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.96);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    padding: 12px 14px;
+    max-width: 300px;
+  }
+  #panel h1 { font-size: 15px; margin: 0 0 4px; }
+  #panel .sub { font-size: 12px; color: #555; margin-bottom: 10px; }
+  #panel label { display: block; font-size: 12px; font-weight: 600; margin-top: 8px; margin-bottom: 3px; }
+  #panel input, #panel select {
+    width: 100%; box-sizing: border-box; padding: 5px 7px; font-size: 13px;
+    border: 1px solid #ccc; border-radius: 6px;
+  }
+  #count { font-size: 12px; margin-top: 10px; color: #333; }
+  #updated { font-size: 11px; color: #888; margin-top: 4px; }
+
+  .popup-title { font-weight: 700; font-size: 13.5px; margin-bottom: 2px; }
+  .popup-line { font-size: 12.5px; margin: 1px 0; }
+  .popup-link { display: inline-block; margin-top: 6px; font-size: 12.5px; }
+</style>
+</head>
+<body>
+
+<div id="panel">
+  <h1>Offres d'emploi — La Réunion (974)</h1>
+  <div class="sub">Source : API France Travail</div>
+
+  <label for="keyword">Recherche (intitulé)</label>
+  <input id="keyword" type="text" placeholder="ex : cuisinier, vente…" />
+
+  <label for="contrat">Type de contrat</label>
+  <select id="contrat">
+    <option value="">Tous</option>
+  </select>
+
+  <div id="count">Chargement…</div>
+  <div id="updated"></div>
+</div>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script>
+  const map = L.map("map", { zoomControl: true }).setView([-21.115, 55.5364], 10);
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: "&copy; OpenStreetMap contributors",
+  }).addTo(map);
+
+  const clusterGroup = L.markerClusterGroup();
+  let allFeatures = [];
+
+  function escapeHtml(str) {
+    return String(str ?? "").replace(/[&<>"']/g, (c) => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+    }[c]));
+  }
+
+  function formatDate(iso) {
+    if (!iso) return "";
+    const d = new Date(iso);
+    return d.toLocaleDateString("fr-FR", { day: "2-digit", month: "2-digit", year: "numeric" });
+  }
+
+  function popupHtml(props) {
+    const parts = [`<div class="popup-title">${escapeHtml(props.intitule)}</div>`];
+    parts.push(`<div class="popup-line">${escapeHtml(props.entreprise)}</div>`);
+    if (props.communeLibelle) parts.push(`<div class="popup-line">📍 ${escapeHtml(props.communeLibelle)}</div>`);
+    if (props.typeContratLibelle) parts.push(`<div class="popup-line">${escapeHtml(props.typeContratLibelle)}</div>`);
+    if (props.salaireLibelle) parts.push(`<div class="popup-line">💶 ${escapeHtml(props.salaireLibelle)}</div>`);
+    if (props.dateCreation) parts.push(`<div class="popup-line">Publiée le ${formatDate(props.dateCreation)}</div>`);
+    if (props.url) parts.push(`<a class="popup-link" href="${encodeURI(props.url)}" target="_blank" rel="noopener">Voir l'offre ↗</a>`);
+    return parts.join("");
+  }
+
+  function render(features) {
+    clusterGroup.clearLayers();
+    for (const feature of features) {
+      const [lon, lat] = feature.geometry.coordinates;
+      const marker = L.marker([lat, lon]);
+      marker.bindPopup(popupHtml(feature.properties));
+      clusterGroup.addLayer(marker);
+    }
+    document.getElementById("count").textContent =
+      `${features.length} offre${features.length !== 1 ? "s" : ""} affichée${features.length !== 1 ? "s" : ""}`;
+  }
+
+  function applyFilters() {
+    const keyword = document.getElementById("keyword").value.trim().toLowerCase();
+    const contrat = document.getElementById("contrat").value;
+    const filtered = allFeatures.filter((f) => {
+      const p = f.properties;
+      if (contrat && p.typeContrat !== contrat) return false;
+      if (keyword && !(p.intitule || "").toLowerCase().includes(keyword)) return false;
+      return true;
+    });
+    render(filtered);
+  }
+
+  document.getElementById("keyword").addEventListener("input", applyFilters);
+  document.getElementById("contrat").addEventListener("change", applyFilters);
+
+  fetch("data/offres.geojson")
+    .then((r) => r.json())
+    .then((geojson) => {
+      allFeatures = geojson.features || [];
+
+      const contratSelect = document.getElementById("contrat");
+      const seen = new Map();
+      for (const f of allFeatures) {
+        const p = f.properties;
+        if (p.typeContrat && !seen.has(p.typeContrat)) seen.set(p.typeContrat, p.typeContratLibelle || p.typeContrat);
+      }
+      for (const [code, label] of [...seen.entries()].sort()) {
+        const opt = document.createElement("option");
+        opt.value = code;
+        opt.textContent = label;
+        contratSelect.appendChild(opt);
+      }
+
+      map.addLayer(clusterGroup);
+      render(allFeatures);
+
+      if (geojson.generatedAt) {
+        document.getElementById("updated").textContent =
+          "Mis à jour le " + new Date(geojson.generatedAt).toLocaleString("fr-FR");
+      }
+    })
+    .catch((err) => {
+      document.getElementById("count").textContent = "Erreur de chargement des données.";
+      console.error(err);
+    });
+</script>
+</body>
+</html>
