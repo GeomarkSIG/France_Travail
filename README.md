@@ -61,6 +61,10 @@ projets Leaflet pour ce besoin ; il s'agit d'un usage non officiel (Google
 ne fournit pas ces tuiles pour un usage hors de son propre produit Maps),
 à garder en tête si le trafic devient important.
 
+## Licence
+
+Ce projet est distribué sous licence [MIT](LICENSE).
+
 ## Notes sur l'API
 
 - Le paramètre `commune` de l'API fait une recherche par rayon si
