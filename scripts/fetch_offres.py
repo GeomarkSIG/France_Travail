@@ -116,6 +116,26 @@ def fetch_commune_offres(session: requests.Session, token: str, commune_code: st
     return offres
 
 
+# Les 14 grands domaines professionnels du référentiel ROME (France Travail),
+# identifiés par la 1ère lettre du code ROME de l'offre (ex : "H2105" -> "H").
+ROME_DOMAINES = {
+    "A": "Agriculture et pêche, espaces naturels et espaces verts, soins aux animaux",
+    "B": "Arts et façonnage d'ouvrages d'art",
+    "C": "Banque, assurance, immobilier",
+    "D": "Commerce, vente et grande distribution",
+    "E": "Communication, média et multimédia",
+    "F": "Construction, bâtiment et travaux publics",
+    "G": "Hôtellerie-restauration, tourisme, loisirs et animation",
+    "H": "Industrie",
+    "I": "Installation et maintenance",
+    "J": "Santé",
+    "K": "Services à la personne et à la collectivité",
+    "L": "Spectacle",
+    "M": "Support à l'entreprise",
+    "N": "Transport et logistique",
+}
+
+
 def to_feature(offre: dict) -> dict | None:
     lieu = offre.get("lieuTravail") or {}
     lat, lon = lieu.get("latitude"), lieu.get("longitude")
@@ -125,6 +145,7 @@ def to_feature(offre: dict) -> dict | None:
     entreprise = offre.get("entreprise") or {}
     salaire = offre.get("salaire") or {}
     origine = offre.get("origineOffre") or {}
+    romeCode = offre.get("romeCode") or ""
 
     return {
         "type": "Feature",
@@ -140,6 +161,10 @@ def to_feature(offre: dict) -> dict | None:
             "dateCreation": offre.get("dateCreation"),
             "salaireLibelle": salaire.get("libelle"),
             "romeLibelle": offre.get("romeLibelle"),
+            "romeDomaineCode": romeCode[:1] or None,
+            "romeDomaine": ROME_DOMAINES.get(romeCode[:1]),
+            "experienceExige": offre.get("experienceExige"),
+            "experienceLibelle": offre.get("experienceLibelle"),
             "url": origine.get("urlOrigine"),
         },
     }

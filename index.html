@@ -19,6 +19,7 @@
   .leaflet-bottom.leaflet-right { bottom: 12px; }
 
   #panel {
+    box-sizing: border-box;
     position: absolute;
     top: 12px;
     left: 12px;
@@ -49,6 +50,20 @@
     flex: 0 0 auto;
   }
 
+  #legend { display: none; margin-top: 8px; border-top: 1px solid #e5e5e2; padding-top: 8px; }
+  .legend-item {
+    display: flex; align-items: center; gap: 7px;
+    padding: 3px 2px; border-radius: 5px; cursor: pointer; user-select: none;
+  }
+  .legend-item:hover { background: #f3f3f1; }
+  .legend-item.inactive { opacity: 0.35; }
+  .legend-swatch {
+    width: 12px; height: 12px; border-radius: 50%; flex: 0 0 auto;
+    border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(0,0,0,0.25);
+  }
+  .legend-label { font-size: 12px; flex: 1 1 auto; }
+  .legend-count { font-size: 11px; color: #888; }
+
   .popup-title { font-weight: 700; font-size: 13.5px; margin-bottom: 2px; }
   .popup-line { font-size: 12.5px; margin: 1px 0; }
   .popup-link { display: inline-block; margin-top: 6px; font-size: 12.5px; }
@@ -76,10 +91,22 @@
     <label for="keyword">Recherche (intitulé)</label>
     <input id="keyword" type="text" placeholder="ex : cuisinier, vente…" />
 
-    <label for="contrat">Type de contrat</label>
-    <select id="contrat">
-      <option value="">Tous</option>
+    <label for="periode">Période</label>
+    <select id="periode">
+      <option value="">Toutes les dates</option>
+      <option value="7">7 derniers jours</option>
+      <option value="30">30 derniers jours</option>
     </select>
+
+    <label for="colorBy">Colorer / filtrer par</label>
+    <select id="colorBy">
+      <option value="none">Aucun</option>
+      <option value="contrat">Type de contrat</option>
+      <option value="metier">Métier (domaine)</option>
+      <option value="experience">Expérience demandée</option>
+    </select>
+
+    <div id="legend"></div>
 
     <div id="count">Chargement…</div>
     <div id="updated"></div>
@@ -140,8 +167,63 @@
     toggleBtn.textContent = "▸";
   }
 
+  // Grappes neutres (couleur par taille du groupe, comme aujourd'hui) : la
+  // symbologie par catégorie n'apparaît que sur les marqueurs individuels.
   const clusterGroup = L.markerClusterGroup();
   let allFeatures = [];
+
+  // --- Palette catégorielle (8 teintes, ordre fixe — cf. skill dataviz) ---
+  const PALETTE = ["#2a78d6", "#1baf7a", "#eda100", "#008300", "#4a3aa7", "#e34948", "#e87ba4", "#eb6834"];
+  const GREY = "#898781";
+
+  const COLOR_MAPS = {
+    contrat: {
+      order: ["CCE", "CDD", "CDI", "DDI", "FRA", "LIB", "MIS", "SAI"],
+      colors: {
+        CCE: PALETTE[0], CDD: PALETTE[1], CDI: PALETTE[2], DDI: PALETTE[3],
+        FRA: PALETTE[4], LIB: PALETTE[5], MIS: PALETTE[6], SAI: PALETTE[7],
+      },
+      labels: {
+        CCE: "Profession commerciale", CDD: "CDD", CDI: "CDI", DDI: "CDD insertion",
+        FRA: "Franchise", LIB: "Profession libérale", MIS: "Intérim", SAI: "Saisonnier",
+      },
+      keyOf: (p) => p.typeContrat || "AUTRE",
+    },
+    metier: {
+      // Les 7 domaines ROME les plus représentés à La Réunion ont chacun une
+      // couleur fixe ; les 7 autres domaines sont regroupés dans "Autres"
+      // pour ne pas dépasser la palette (cf. skill dataviz : pas de 9e teinte).
+      order: ["D", "F", "G", "I", "K", "M", "N", "AUTRES"],
+      colors: {
+        D: PALETTE[0], F: PALETTE[1], G: PALETTE[2], I: PALETTE[3],
+        K: PALETTE[4], M: PALETTE[5], N: PALETTE[6], AUTRES: GREY,
+      },
+      labels: {
+        D: "Commerce, vente", F: "Construction, BTP", G: "Hôtellerie, restauration, tourisme",
+        I: "Installation, maintenance", K: "Services à la personne", M: "Support à l'entreprise",
+        N: "Transport, logistique", AUTRES: "Autres métiers",
+      },
+      keyOf: (p) => (COLOR_MAPS.metier.colors[p.romeDomaineCode] ? p.romeDomaineCode : "AUTRES"),
+    },
+    experience: {
+      // Variable ordinale (débutant → exigée) : une seule teinte, du clair au
+      // foncé, plutôt que des couleurs catégorielles sans rapport d'ordre.
+      order: ["D", "S", "E", "NP"],
+      colors: { D: "#86b6ef", S: "#2a78d6", E: "#104281", NP: "#c3c2b7" },
+      labels: {
+        D: "Débutant accepté", S: "Expérience souhaitée", E: "Expérience exigée", NP: "Non précisé",
+      },
+      keyOf: (p) => p.experienceExige || "NP",
+    },
+  };
+
+  let colorBy = "none";
+  let activeCategories = null;
+
+  function resetActiveCategories() {
+    const map = COLOR_MAPS[colorBy];
+    activeCategories = map ? new Set(map.order) : null;
+  }
 
   function escapeHtml(str) {
     return String(str ?? "").replace(/[&<>"']/g, (c) => ({
@@ -160,17 +242,41 @@
     parts.push(`<div class="popup-line">${escapeHtml(props.entreprise)}</div>`);
     if (props.communeLibelle) parts.push(`<div class="popup-line">📍 ${escapeHtml(props.communeLibelle)}</div>`);
     if (props.typeContratLibelle) parts.push(`<div class="popup-line">${escapeHtml(props.typeContratLibelle)}</div>`);
+    if (props.romeLibelle) parts.push(`<div class="popup-line">${escapeHtml(props.romeLibelle)}</div>`);
+    if (props.experienceLibelle) parts.push(`<div class="popup-line">Expérience : ${escapeHtml(props.experienceLibelle)}</div>`);
     if (props.salaireLibelle) parts.push(`<div class="popup-line">💶 ${escapeHtml(props.salaireLibelle)}</div>`);
     if (props.dateCreation) parts.push(`<div class="popup-line">Publiée le ${formatDate(props.dateCreation)}</div>`);
     if (props.url) parts.push(`<a class="popup-link" href="${encodeURI(props.url)}" target="_blank" rel="noopener">Voir l'offre ↗</a>`);
     return parts.join("");
   }
 
+  const iconCache = new Map();
+  function coloredIcon(hex) {
+    if (iconCache.has(hex)) return iconCache.get(hex);
+    const icon = L.divIcon({
+      className: "",
+      html: `<span style="display:block;width:14px;height:14px;border-radius:50%;background:${hex};border:2px solid #fff;box-shadow:0 0 2px rgba(0,0,0,.5)"></span>`,
+      iconSize: [14, 14],
+      iconAnchor: [7, 7],
+      popupAnchor: [0, -8],
+    });
+    iconCache.set(hex, icon);
+    return icon;
+  }
+
+  function iconFor(props) {
+    if (colorBy === "none") return null;
+    const map = COLOR_MAPS[colorBy];
+    const key = map.keyOf(props);
+    return coloredIcon(map.colors[key] || GREY);
+  }
+
   function render(features) {
     clusterGroup.clearLayers();
     for (const feature of features) {
       const [lon, lat] = feature.geometry.coordinates;
-      const marker = L.marker([lat, lon]);
+      const icon = iconFor(feature.properties);
+      const marker = icon ? L.marker([lat, lon], { icon }) : L.marker([lat, lon]);
       marker.bindPopup(popupHtml(feature.properties));
       clusterGroup.addLayer(marker);
     }
@@ -178,41 +284,84 @@
       `${features.length} offre${features.length !== 1 ? "s" : ""} affichée${features.length !== 1 ? "s" : ""}`;
   }
 
+  function renderLegend(featuresForCounts) {
+    const container = document.getElementById("legend");
+    const map = COLOR_MAPS[colorBy];
+    if (!map) {
+      container.style.display = "none";
+      container.innerHTML = "";
+      return;
+    }
+
+    const counts = {};
+    for (const f of featuresForCounts) {
+      const key = map.keyOf(f.properties);
+      counts[key] = (counts[key] || 0) + 1;
+    }
+
+    const visibleKeys = map.order.filter((key) => counts[key]);
+    container.style.display = visibleKeys.length ? "block" : "none";
+    container.innerHTML = visibleKeys
+      .map((key) => {
+        const active = activeCategories.has(key);
+        return `<div class="legend-item${active ? "" : " inactive"}" data-key="${key}">
+          <span class="legend-swatch" style="background:${map.colors[key]}"></span>
+          <span class="legend-label">${escapeHtml(map.labels[key])}</span>
+          <span class="legend-count">${counts[key]}</span>
+        </div>`;
+      })
+      .join("");
+
+    container.querySelectorAll(".legend-item").forEach((el) => {
+      el.addEventListener("click", () => {
+        const key = el.dataset.key;
+        if (activeCategories.has(key)) activeCategories.delete(key);
+        else activeCategories.add(key);
+        applyFilters();
+      });
+    });
+  }
+
   function applyFilters() {
     const keyword = document.getElementById("keyword").value.trim().toLowerCase();
-    const contrat = document.getElementById("contrat").value;
-    const filtered = allFeatures.filter((f) => {
+    const periodeDays = Number(document.getElementById("periode").value || 0);
+    const now = Date.now();
+
+    const preCategory = allFeatures.filter((f) => {
       const p = f.properties;
-      if (contrat && p.typeContrat !== contrat) return false;
       if (keyword && !(p.intitule || "").toLowerCase().includes(keyword)) return false;
+      if (periodeDays) {
+        if (!p.dateCreation) return false;
+        const ageDays = (now - new Date(p.dateCreation).getTime()) / 86400000;
+        if (ageDays > periodeDays) return false;
+      }
       return true;
     });
+
+    const map = COLOR_MAPS[colorBy];
+    const filtered = map
+      ? preCategory.filter((f) => activeCategories.has(map.keyOf(f.properties)))
+      : preCategory;
+
+    renderLegend(preCategory);
     render(filtered);
   }
 
   document.getElementById("keyword").addEventListener("input", applyFilters);
-  document.getElementById("contrat").addEventListener("change", applyFilters);
+  document.getElementById("periode").addEventListener("change", applyFilters);
+  document.getElementById("colorBy").addEventListener("change", (e) => {
+    colorBy = e.target.value;
+    resetActiveCategories();
+    applyFilters();
+  });
 
   fetch("data/offres.geojson")
     .then((r) => r.json())
     .then((geojson) => {
       allFeatures = geojson.features || [];
 
-      const contratSelect = document.getElementById("contrat");
-      const seen = new Map();
-      for (const f of allFeatures) {
-        const p = f.properties;
-        if (p.typeContrat && !seen.has(p.typeContrat)) seen.set(p.typeContrat, p.typeContratLibelle || p.typeContrat);
-      }
-      for (const [code, label] of [...seen.entries()].sort()) {
-        const opt = document.createElement("option");
-        opt.value = code;
-        opt.textContent = label;
-        contratSelect.appendChild(opt);
-      }
-
       map.addLayer(clusterGroup);
-      render(allFeatures);
+      applyFilters();
 
       if (geojson.generatedAt) {
         document.getElementById("updated").textContent =

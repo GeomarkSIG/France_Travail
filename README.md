@@ -61,6 +61,30 @@ projets Leaflet pour ce besoin ; il s'agit d'un usage non officiel (Google
 ne fournit pas ces tuiles pour un usage hors de son propre produit Maps),
 à garder en tête si le trafic devient important.
 
+## Filtres et symbologie
+
+- **Période** : "7 derniers jours" / "30 derniers jours" (glissants, basés
+  sur `dateCreation`) ou toutes les dates.
+- **Colorer / filtrer par** : bascule entre 3 légendes interactives (une
+  seule à la fois pour rester lisible avec ~5 000 points) — cliquer une
+  entrée de la légende isole/exclut cette catégorie.
+  - *Type de contrat* : une couleur par code (CDI, CDD, Intérim…),
+    assignation fixe (jamais recalculée selon la fréquence).
+  - *Métier* : regroupement par grand domaine ROME (déduit de la 1ère
+    lettre du code ROME). Seuls les 7 domaines les plus représentés à La
+    Réunion ont une couleur dédiée ; les 7 autres domaines sont regroupés
+    dans "Autres métiers" (gris) pour ne pas dépasser une palette de 8
+    teintes lisibles. La liste des 7 domaines colorés est fixée dans
+    `index.html` (`COLOR_MAPS.metier`) — à ajuster à la main si la
+    répartition des offres change durablement.
+  - *Expérience demandée* : variable ordinale (débutant → exigée), rendue
+    avec une seule teinte du clair au foncé plutôt que des couleurs
+    catégorielles.
+- Au dézoom, les marqueurs proches sont regroupés en grappes neutres
+  (couleur selon la taille du groupe, comme Leaflet.markercluster par
+  défaut) — la coloration par catégorie n'est visible qu'en zoomant sur
+  des marqueurs individuels.
+
 ## Licence
 
 Ce projet est distribué sous licence [MIT](LICENSE).
