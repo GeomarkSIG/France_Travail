@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
-  "generatedAt": "2026-08-28T15:19:38.201196+00:00",
-  "count": 1974,
+  "generatedAt": "2026-08-29T10:02:29.131202+00:00",
+  "count": 1881,
   "features": [
     {
       "type": "Feature",
@@ -163,33 +163,6 @@
         "experienceExige": "E",
         "experienceLibelle": "2 An(s) - Manœuvre maçon",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212LGVZ"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.67613,
-          -20.995245
-        ]
-      },
-      "properties": {
-        "id": "210WFCJ",
-        "intitule": "Animatrice petite enfance  (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 6 Mois",
-        "communeLibelle": "974 - BRAS PANON",
-        "codePostal": "97412",
-        "dateCreation": "2026-07-07T11:17:26.026Z",
-        "salaireLibelle": "Mensuel de 1066.87 Euros à 1200.0 Euros sur 12 mois",
-        "romeLibelle": "Animateur / Animatrice petite enfance",
-        "romeDomaineCode": "K",
-        "romeDomaine": "Services à la personne et à la collectivité",
-        "experienceExige": "E",
-        "experienceLibelle": "2 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/210WFCJ"
       }
     },
     {
@@ -1606,33 +1579,6 @@
         ]
       },
       "properties": {
-        "id": "212MTCF",
-        "intitule": "Accompagnant Educatif et Social (AES) / Accompagnante Educative e (H/F)",
-        "entreprise": "EAM LES CASCAVELLES",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - La Plaine-des-Palmistes",
-        "codePostal": "97431",
-        "dateCreation": "2026-08-15T11:40:19.478Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Accompagnant Educatif et Social (AES) / Accompagnante Educative et Sociale (AES)",
-        "romeDomaineCode": "K",
-        "romeDomaine": "Services à la personne et à la collectivité",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212MTCF"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.625783,
-          -21.135044
-        ]
-      },
-      "properties": {
         "id": "212MTCM",
         "intitule": "MONITEUR ÉDUCATEUR (H/F)",
         "entreprise": "EAM LES CASCAVELLES",
@@ -1648,6 +1594,33 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212MTCM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.625783,
+          -21.135044
+        ]
+      },
+      "properties": {
+        "id": "212MTCF",
+        "intitule": "Accompagnant Educatif et Social (AES) / Accompagnante Educative e (H/F)",
+        "entreprise": "EAM LES CASCAVELLES",
+        "typeContrat": "CDI",
+        "typeContratLibelle": "CDI",
+        "communeLibelle": "974 - La Plaine-des-Palmistes",
+        "codePostal": "97431",
+        "dateCreation": "2026-08-15T11:40:19.478Z",
+        "salaireLibelle": null,
+        "romeLibelle": "Accompagnant Educatif et Social (AES) / Accompagnante Educative et Sociale (AES)",
+        "romeDomaineCode": "K",
+        "romeDomaine": "Services à la personne et à la collectivité",
+        "experienceExige": "D",
+        "experienceLibelle": "Débutant accepté",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212MTCF"
       }
     },
     {
@@ -2632,33 +2605,6 @@
         ]
       },
       "properties": {
-        "id": "212WFVR",
-        "intitule": "Agent(e) de transit Import / Export (H/F)",
-        "entreprise": "BOURBONNAISE DE TRANSIT",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - LE PORT",
-        "codePostal": "97420",
-        "dateCreation": "2026-08-25T06:32:59.484Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Agent / Agente de transit",
-        "romeDomaineCode": "N",
-        "romeDomaine": "Transport et logistique",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212WFVR"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.290268,
-          -20.935272
-        ]
-      },
-      "properties": {
         "id": "212WFXJ",
         "intitule": "Dessinateur charpente (H/F)",
         "entreprise": "PROMAN",
@@ -2674,6 +2620,33 @@
         "experienceExige": "E",
         "experienceLibelle": "3 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212WFXJ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.290268,
+          -20.935272
+        ]
+      },
+      "properties": {
+        "id": "212WFVR",
+        "intitule": "Agent(e) de transit Import / Export (H/F)",
+        "entreprise": "BOURBONNAISE DE TRANSIT",
+        "typeContrat": "CDI",
+        "typeContratLibelle": "CDI",
+        "communeLibelle": "974 - LE PORT",
+        "codePostal": "97420",
+        "dateCreation": "2026-08-25T06:32:59.484Z",
+        "salaireLibelle": null,
+        "romeLibelle": "Agent / Agente de transit",
+        "romeDomaineCode": "N",
+        "romeDomaine": "Transport et logistique",
+        "experienceExige": "E",
+        "experienceLibelle": "1 An(s)",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212WFVR"
       }
     },
     {
@@ -2701,33 +2674,6 @@
         "experienceExige": "E",
         "experienceLibelle": "2 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212VHQY"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.294928,
-          -20.945136
-        ]
-      },
-      "properties": {
-        "id": "212TCQP",
-        "intitule": "SOUDEUR FERRAILLEUR (H/F)",
-        "entreprise": "H.E.R",
-        "typeContrat": "MIS",
-        "typeContratLibelle": "Intérim - 15 Jour(s)",
-        "communeLibelle": "974 - LE PORT",
-        "codePostal": "97420",
-        "dateCreation": "2026-08-21T13:41:38.992Z",
-        "salaireLibelle": "Horaire de 13.0 Euros à 15.0 Euros sur 12 mois",
-        "romeLibelle": "Soudeur / Soudeuse",
-        "romeDomaineCode": "H",
-        "romeDomaine": "Industrie",
-        "experienceExige": "E",
-        "experienceLibelle": "6 Mois",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212TCQP"
       }
     },
     {
@@ -2782,6 +2728,33 @@
         "experienceExige": "E",
         "experienceLibelle": "12 Mois",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212TSTB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.294928,
+          -20.945136
+        ]
+      },
+      "properties": {
+        "id": "212TCQP",
+        "intitule": "SOUDEUR FERRAILLEUR (H/F)",
+        "entreprise": "H.E.R",
+        "typeContrat": "MIS",
+        "typeContratLibelle": "Intérim - 15 Jour(s)",
+        "communeLibelle": "974 - LE PORT",
+        "codePostal": "97420",
+        "dateCreation": "2026-08-21T13:41:38.992Z",
+        "salaireLibelle": "Horaire de 13.0 Euros à 15.0 Euros sur 12 mois",
+        "romeLibelle": "Soudeur / Soudeuse",
+        "romeDomaineCode": "H",
+        "romeDomaine": "Industrie",
+        "experienceExige": "E",
+        "experienceLibelle": "6 Mois",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212TCQP"
       }
     },
     {
@@ -3145,33 +3118,6 @@
         ]
       },
       "properties": {
-        "id": "212KKFY",
-        "intitule": "Boulanger.ère (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 6 Mois",
-        "communeLibelle": "974 - LE PORT",
-        "codePostal": "97420",
-        "dateCreation": "2026-08-12T14:32:06.745Z",
-        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
-        "romeLibelle": "Boulanger / Boulangère",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212KKFY"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.319415,
-          -20.960909
-        ]
-      },
-      "properties": {
         "id": "212KFTK",
         "intitule": "Préparateur de commandes - cariste H/F (H/F)",
         "entreprise": "SOBORIZ INDUSTRIE",
@@ -3187,6 +3133,33 @@
         "experienceExige": "E",
         "experienceLibelle": "2 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212KFTK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.319415,
+          -20.960909
+        ]
+      },
+      "properties": {
+        "id": "212KKFY",
+        "intitule": "Boulanger.ère (H/F)",
+        "entreprise": "Entreprise non précisée",
+        "typeContrat": "CDD",
+        "typeContratLibelle": "CDD - 6 Mois",
+        "communeLibelle": "974 - LE PORT",
+        "codePostal": "97420",
+        "dateCreation": "2026-08-12T14:32:06.745Z",
+        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
+        "romeLibelle": "Boulanger / Boulangère",
+        "romeDomaineCode": "D",
+        "romeDomaine": "Commerce, vente et grande distribution",
+        "experienceExige": "E",
+        "experienceLibelle": "1 An(s)",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212KKFY"
       }
     },
     {
@@ -3484,33 +3457,6 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/211MKTT"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.294928,
-          -20.945136
-        ]
-      },
-      "properties": {
-        "id": "211GBQZ",
-        "intitule": "Conseiller de vente (H/F) en  apprentissage",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 18 Mois",
-        "communeLibelle": "974 - Le Port",
-        "codePostal": "97420",
-        "dateCreation": "2026-07-16T08:00:43.018Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Vendeur / Vendeuse en accessoires de la personne",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "3 Mois",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/211GBQZ"
       }
     },
     {
@@ -4247,33 +4193,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.294928,
-          -20.945136
-        ]
-      },
-      "properties": {
-        "id": "212CQXH",
-        "intitule": "Acheteur Liquide et DPH (H/F)",
-        "entreprise": "EXCELLENCE",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Le Port",
-        "codePostal": "97420",
-        "dateCreation": "2026-08-05T12:12:34.428Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Acheteur / Acheteuse",
-        "romeDomaineCode": "M",
-        "romeDomaine": "Support à l'entreprise",
-        "experienceExige": "E",
-        "experienceLibelle": "3 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212CQXH"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.319415,
           -20.960909
         ]
@@ -4468,33 +4387,6 @@
         ]
       },
       "properties": {
-        "id": "212WGYM",
-        "intitule": "GRUTIER/RE (H/F)",
-        "entreprise": "ALTER EGO LE PORT 1224",
-        "typeContrat": "MIS",
-        "typeContratLibelle": "Intérim - 1 Mois",
-        "communeLibelle": "974 - LE PORT",
-        "codePostal": "97420",
-        "dateCreation": "2026-08-25T08:22:37.804Z",
-        "salaireLibelle": "Horaire de 14.72 Euros à 19.11 Euros sur 12 mois",
-        "romeLibelle": "Grutier / Grutière",
-        "romeDomaineCode": "F",
-        "romeDomaine": "Construction, bâtiment et travaux publics",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212WGYM"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.290268,
-          -20.935272
-        ]
-      },
-      "properties": {
         "id": "212WHJJ",
         "intitule": "Maçon Finisseur (H/F)",
         "entreprise": "DB CONSTRUCTION REUNION",
@@ -4510,6 +4402,33 @@
         "experienceExige": "E",
         "experienceLibelle": "5 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212WHJJ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.290268,
+          -20.935272
+        ]
+      },
+      "properties": {
+        "id": "212WGYM",
+        "intitule": "GRUTIER/RE (H/F)",
+        "entreprise": "ALTER EGO LE PORT 1224",
+        "typeContrat": "MIS",
+        "typeContratLibelle": "Intérim - 1 Mois",
+        "communeLibelle": "974 - LE PORT",
+        "codePostal": "97420",
+        "dateCreation": "2026-08-25T08:22:37.804Z",
+        "salaireLibelle": "Horaire de 14.72 Euros à 19.11 Euros sur 12 mois",
+        "romeLibelle": "Grutier / Grutière",
+        "romeDomaineCode": "F",
+        "romeDomaine": "Construction, bâtiment et travaux publics",
+        "experienceExige": "E",
+        "experienceLibelle": "1 An(s)",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212WGYM"
       }
     },
     {
@@ -4684,33 +4603,6 @@
         ]
       },
       "properties": {
-        "id": "212LGSD",
-        "intitule": "UN COMPTABLE FOURNISSEUR (H/F)",
-        "entreprise": "ALTER EGO SAINT PAUL 1225",
-        "typeContrat": "MIS",
-        "typeContratLibelle": "Intérim - 1 Mois",
-        "communeLibelle": "974 - LE PORT",
-        "codePostal": "97420",
-        "dateCreation": "2026-08-13T13:42:01.543Z",
-        "salaireLibelle": "Mensuel de 2500.0 Euros sur 12 mois",
-        "romeLibelle": "Comptable",
-        "romeDomaineCode": "M",
-        "romeDomaine": "Support à l'entreprise",
-        "experienceExige": "E",
-        "experienceLibelle": "3 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212LGSD"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.294928,
-          -20.945136
-        ]
-      },
-      "properties": {
         "id": "212KJZN",
         "intitule": "Vendeur.euse en boulangerie-pâtisserie (H/F)",
         "entreprise": "LE PAIN FROTTE",
@@ -4726,33 +4618,6 @@
         "experienceExige": "E",
         "experienceLibelle": "6 Mois",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212KJZN"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.290268,
-          -20.935272
-        ]
-      },
-      "properties": {
-        "id": "212HFCD",
-        "intitule": "Mécanicien / Mécanicienne automobile (H/F)",
-        "entreprise": "PNEUS TOUS SERVICES",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 18 Mois",
-        "communeLibelle": "974 - Le Port",
-        "codePostal": "97420",
-        "dateCreation": "2026-08-10T13:53:52.247Z",
-        "salaireLibelle": "Mensuel de 2500.0 Euros sur 12 mois",
-        "romeLibelle": "Mécanicien / Mécanicienne automobile",
-        "romeDomaineCode": "I",
-        "romeDomaine": "Installation et maintenance",
-        "experienceExige": "E",
-        "experienceLibelle": "5 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212HFCD"
       }
     },
     {
@@ -5381,33 +5246,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.294928,
-          -20.945136
-        ]
-      },
-      "properties": {
-        "id": "5569161",
-        "intitule": "Infirmier en pratique avancée (IPA) (H/F)",
-        "entreprise": "ADECCO MEDICAL",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Port",
-        "codePostal": "97420",
-        "dateCreation": "2026-07-30T03:23:22.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Infirmier / Infirmière en Pratique Avancée (IPA)",
-        "romeDomaineCode": "J",
-        "romeDomaine": "Santé",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5569161"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.290268,
           -20.935272
         ]
@@ -5725,33 +5563,6 @@
         "experienceExige": "E",
         "experienceLibelle": "1 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/5880031"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.294928,
-          -20.945136
-        ]
-      },
-      "properties": {
-        "id": "5871126",
-        "intitule": "Conseiller / Conseillère immobilier (H/F)",
-        "entreprise": "NEW IMMO GROUP",
-        "typeContrat": "LIB",
-        "typeContratLibelle": "Profession libérale",
-        "communeLibelle": "974 - Port",
-        "codePostal": "97420",
-        "dateCreation": "2026-08-10T03:19:26.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère immobilier",
-        "romeDomaineCode": "C",
-        "romeDomaine": "Banque, assurance, immobilier",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5871126"
       }
     },
     {
@@ -6326,33 +6137,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.294928,
-          -20.945136
-        ]
-      },
-      "properties": {
-        "id": "5569206",
-        "intitule": "Pharmacien / Pharmacienne (H/F)",
-        "entreprise": "ADECCO MEDICAL",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Port",
-        "codePostal": "97420",
-        "dateCreation": "2026-07-30T03:23:22.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Pharmacien / Pharmacienne",
-        "romeDomaineCode": "J",
-        "romeDomaine": "Santé",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5569206"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.290268,
           -20.935272
         ]
@@ -6751,33 +6535,6 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212MCYN"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.331209,
-          -20.951763
-        ]
-      },
-      "properties": {
-        "id": "211XQRQ",
-        "intitule": "Agent polyvalent / Agente polyvalente d'hôtellerie restauration (H/F)",
-        "entreprise": "TAMAREO DE LA NOUVELLE",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 3 Mois",
-        "communeLibelle": "974 - LA POSSESSION",
-        "codePostal": "97419",
-        "dateCreation": "2026-07-31T09:47:33.770Z",
-        "salaireLibelle": "Mensuel de 2133.73 Euros sur 12 mois",
-        "romeLibelle": "Employé / Employée d'hôtel",
-        "romeDomaineCode": "G",
-        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
-        "experienceExige": "E",
-        "experienceLibelle": "2 An(s) - sur un poste similaire",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/211XQRQ"
       }
     },
     {
@@ -7676,33 +7433,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.335921,
-          -20.926523
-        ]
-      },
-      "properties": {
-        "id": "212BPDV",
-        "intitule": "Aménageur de véhicule automobile (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 6 Mois",
-        "communeLibelle": "974 - La Possession",
-        "codePostal": "97419",
-        "dateCreation": "2026-08-04T13:37:18.282Z",
-        "salaireLibelle": "Mensuel de 1950.0 Euros sur 12 mois",
-        "romeLibelle": "Carrossier-peintre / Carrossière-peintre",
-        "romeDomaineCode": "I",
-        "romeDomaine": "Installation et maintenance",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212BPDV"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.381282,
           -20.984652
         ]
@@ -7723,6 +7453,33 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212BFHX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.335921,
+          -20.926523
+        ]
+      },
+      "properties": {
+        "id": "212BPDV",
+        "intitule": "Aménageur de véhicule automobile (H/F)",
+        "entreprise": "Entreprise non précisée",
+        "typeContrat": "CDD",
+        "typeContratLibelle": "CDD - 6 Mois",
+        "communeLibelle": "974 - La Possession",
+        "codePostal": "97419",
+        "dateCreation": "2026-08-04T13:37:18.282Z",
+        "salaireLibelle": "Mensuel de 1950.0 Euros sur 12 mois",
+        "romeLibelle": "Carrossier-peintre / Carrossière-peintre",
+        "romeDomaineCode": "I",
+        "romeDomaine": "Installation et maintenance",
+        "experienceExige": "E",
+        "experienceLibelle": "1 An(s)",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212BPDV"
       }
     },
     {
@@ -8140,33 +7897,6 @@
         ]
       },
       "properties": {
-        "id": "212BFXT",
-        "intitule": "Coiffeur / Coiffeuse",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 24 Mois",
-        "communeLibelle": "974 - LA POSSESSION",
-        "codePostal": "97419",
-        "dateCreation": "2026-08-04T10:20:34.705Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Coiffeur / Coiffeuse",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s) - SUR UN MEME POSTE",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212BFXT"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.331209,
-          -20.951763
-        ]
-      },
-      "properties": {
         "id": "212BFTT",
         "intitule": "Coiffeur / Coiffeuse",
         "entreprise": "Entreprise non précisée",
@@ -8560,33 +8290,6 @@
         "experienceExige": "E",
         "experienceLibelle": "1 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212SXLF"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.381282,
-          -20.984652
-        ]
-      },
-      "properties": {
-        "id": "212PMYY",
-        "intitule": "Mécanicien / Mécanicienne automobile",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - LA POSSESSION",
-        "codePostal": "97419",
-        "dateCreation": "2026-08-18T11:43:32.654Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Mécanicien / Mécanicienne automobile",
-        "romeDomaineCode": "I",
-        "romeDomaine": "Installation et maintenance",
-        "experienceExige": "E",
-        "experienceLibelle": "2 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212PMYY"
       }
     },
     {
@@ -9073,33 +8776,6 @@
         "experienceExige": "E",
         "experienceLibelle": "2 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/3147912"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.381282,
-          -20.984652
-        ]
-      },
-      "properties": {
-        "id": "5871332",
-        "intitule": "Conseiller / Conseillère immobilier (H/F)",
-        "entreprise": "NEW IMMO GROUP",
-        "typeContrat": "LIB",
-        "typeContratLibelle": "Profession libérale",
-        "communeLibelle": "974 - Possession",
-        "codePostal": "97419",
-        "dateCreation": "2026-08-10T03:19:26.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère immobilier",
-        "romeDomaineCode": "C",
-        "romeDomaine": "Banque, assurance, immobilier",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5871332"
       }
     },
     {
@@ -9829,33 +9505,6 @@
         "experienceExige": "E",
         "experienceLibelle": "3 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212BFBR"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.651052,
-          -20.932745
-        ]
-      },
-      "properties": {
-        "id": "211XNHK",
-        "intitule": "Cuisinier(e) en boulangerie / coffee shop (H/F)",
-        "entreprise": "OH MY BREAD",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 6 Mois",
-        "communeLibelle": "974 - SAINT-ANDRE",
-        "codePostal": "97440",
-        "dateCreation": "2026-07-31T08:27:57.243Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Cuisinier / Cuisinière de collectivité",
-        "romeDomaineCode": "G",
-        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
-        "experienceExige": "E",
-        "experienceLibelle": "24 Mois",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/211XNHK"
       }
     },
     {
@@ -10943,87 +10592,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.657992,
-          -20.975869
-        ]
-      },
-      "properties": {
-        "id": "210NWVB",
-        "intitule": "Responsable de structure d'accueil social",
-        "entreprise": "CENTRE COMMUNAL D'ACTION SOCIALE",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 3 Mois",
-        "communeLibelle": "974 - ST ANDRE",
-        "codePostal": "97440",
-        "dateCreation": "2026-07-01T06:44:31.017Z",
-        "salaireLibelle": "Mensuel de 2000.0 Euros à 3000.0 Euros sur 12 mois",
-        "romeLibelle": "Coordonnateur / Coordonnatrice de service social",
-        "romeDomaineCode": "K",
-        "romeDomaine": "Services à la personne et à la collectivité",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/210NWVB"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.681088,
-          -20.94379
-        ]
-      },
-      "properties": {
-        "id": "210BXCJ",
-        "intitule": "Chauffeur Porte-engins (H/F)",
-        "entreprise": "SASU CDR TP",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 6 Mois",
-        "communeLibelle": "974 - Saint-André",
-        "codePostal": "97440",
-        "dateCreation": "2026-06-22T08:29:06.490Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Convoyeur / Convoyeuse de véhicules ou matériels lourds",
-        "romeDomaineCode": "N",
-        "romeDomaine": "Transport et logistique",
-        "experienceExige": "E",
-        "experienceLibelle": "3 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/210BXCJ"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.681088,
-          -20.94379
-        ]
-      },
-      "properties": {
-        "id": "210BWPH",
-        "intitule": "Technicien(ne) Etudes et Travaux VRD (H/F)",
-        "entreprise": "SASU CDR TP",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 6 Mois",
-        "communeLibelle": "974 - Saint-André",
-        "codePostal": "97440",
-        "dateCreation": "2026-06-22T08:04:52.330Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Ingénieur / Ingénieure génie civil",
-        "romeDomaineCode": "F",
-        "romeDomaine": "Construction, bâtiment et travaux publics",
-        "experienceExige": "E",
-        "experienceLibelle": "3 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/210BWPH"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.681088,
           -20.94379
         ]
@@ -11071,6 +10639,33 @@
         "experienceExige": "E",
         "experienceLibelle": "2 An(s) - sur un poste similaire",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/204VJLW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.657992,
+          -20.975869
+        ]
+      },
+      "properties": {
+        "id": "213CLBB",
+        "intitule": "Technicien Méthodes Maintenance (H/F)",
+        "entreprise": "DORKAS CONSEILS",
+        "typeContrat": "CDI",
+        "typeContratLibelle": "CDI",
+        "communeLibelle": "974 - Saint-André",
+        "codePostal": "97440",
+        "dateCreation": "2026-08-29T11:36:42.084Z",
+        "salaireLibelle": "Annuel de 36000.0 Euros à 45000.0 Euros sur 12.0 mois",
+        "romeLibelle": "Technicien / Technicienne de maintenance industrielle",
+        "romeDomaineCode": "I",
+        "romeDomaine": "Installation et maintenance",
+        "experienceExige": "E",
+        "experienceLibelle": "5 An(s)",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/213CLBB"
       }
     },
     {
@@ -11672,33 +11267,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.657992,
-          -20.975869
-        ]
-      },
-      "properties": {
-        "id": "212PCMB",
-        "intitule": "Commercial en immobilier H/F (H/F)",
-        "entreprise": "MAXIMMO - 97'KAZ",
-        "typeContrat": "CCE",
-        "typeContratLibelle": "Profession commerciale",
-        "communeLibelle": "974 - Saint-André",
-        "codePostal": "97440",
-        "dateCreation": "2026-08-18T08:32:23.527Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère immobilier",
-        "romeDomaineCode": "C",
-        "romeDomaine": "Banque, assurance, immobilier",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212PCMB"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.681088,
           -20.94379
         ]
@@ -11908,33 +11476,6 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/211NTJF"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.681088,
-          -20.94379
-        ]
-      },
-      "properties": {
-        "id": "211MTSW",
-        "intitule": "Maçon VRD H/F (H/F)",
-        "entreprise": "SASU CDR TP",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 6 Mois",
-        "communeLibelle": "974 - Saint-André",
-        "codePostal": "97440",
-        "dateCreation": "2026-07-22T11:12:34.680Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Ouvrier / Ouvrière en voieries urbaines",
-        "romeDomaineCode": "F",
-        "romeDomaine": "Construction, bâtiment et travaux publics",
-        "experienceExige": "E",
-        "experienceLibelle": "3 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/211MTSW"
       }
     },
     {
@@ -12347,33 +11888,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.681088,
-          -20.94379
-        ]
-      },
-      "properties": {
-        "id": "5871307",
-        "intitule": "Conseiller / Conseillère immobilier (H/F)",
-        "entreprise": "NEW IMMO GROUP",
-        "typeContrat": "LIB",
-        "typeContratLibelle": "Profession libérale",
-        "communeLibelle": "974 - Saint-André",
-        "codePostal": "97440",
-        "dateCreation": "2026-08-10T03:19:26.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère immobilier",
-        "romeDomaineCode": "C",
-        "romeDomaine": "Banque, assurance, immobilier",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5871307"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.657992,
           -20.975869
         ]
@@ -12718,6 +12232,33 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/3538052"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.743972,
+          -21.082542
+        ]
+      },
+      "properties": {
+        "id": "213CKRY",
+        "intitule": "Agent(e) polyvalent(e) d'hôtellerie (H/F)",
+        "entreprise": "COMPTOIR TOURISTIQUE DES MASCAREIGNES",
+        "typeContrat": "CDI",
+        "typeContratLibelle": "CDI",
+        "communeLibelle": "974 - Saint-Benoît",
+        "codePostal": "97470",
+        "dateCreation": "2026-08-29T04:33:29.720Z",
+        "salaireLibelle": null,
+        "romeLibelle": "Employé / Employée d'hôtel",
+        "romeDomaineCode": "G",
+        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
+        "experienceExige": "E",
+        "experienceLibelle": "6 Mois",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/213CKRY"
       }
     },
     {
@@ -13405,33 +12946,6 @@
         ]
       },
       "properties": {
-        "id": "211TDPX",
-        "intitule": "Caissier / Caissière pompiste",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 3 Mois",
-        "communeLibelle": "974 - ST BENOIT",
-        "codePostal": "97437",
-        "dateCreation": "2026-07-28T11:15:30.670Z",
-        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
-        "romeLibelle": "Hôte / Hôtesse de caisse",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "12 Mois",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/211TDPX"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.743972,
-          -21.082542
-        ]
-      },
-      "properties": {
         "id": "208WQLN",
         "intitule": "Aide-boucher / Aide-bouchère",
         "entreprise": "Entreprise non précisée",
@@ -13555,33 +13069,6 @@
         "experienceExige": "E",
         "experienceLibelle": "2 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/211DRMJ"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.743972,
-          -21.082542
-        ]
-      },
-      "properties": {
-        "id": "207HQRK",
-        "intitule": "Technico machinisme agricole (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - ST BENOIT",
-        "codePostal": "97437",
-        "dateCreation": "2026-04-22T13:07:24.427Z",
-        "salaireLibelle": "Mensuel de 2000.0 Euros à 2800.0 Euros sur 12.0 mois",
-        "romeLibelle": "Conseiller / Conseillère technique agricole",
-        "romeDomaineCode": "A",
-        "romeDomaine": "Agriculture et pêche, espaces naturels et espaces verts, soins aux animaux",
-        "experienceExige": "E",
-        "experienceLibelle": "2 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/207HQRK"
       }
     },
     {
@@ -13729,21 +13216,21 @@
         ]
       },
       "properties": {
-        "id": "212BPGP",
-        "intitule": "Cuisinier(ère) (H/F)",
+        "id": "212FTMG",
+        "intitule": "SECOND DE CUISINE (H/F)",
         "entreprise": "Entreprise non précisée",
         "typeContrat": "CDI",
         "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Saint-Benoît",
-        "codePostal": "97470",
-        "dateCreation": "2026-08-04T13:41:12.332Z",
-        "salaireLibelle": "Mensuel de 1350.0 Euros sur 12 mois",
+        "communeLibelle": "974 - ST BENOIT",
+        "codePostal": "97437",
+        "dateCreation": "2026-08-07T11:21:25.127Z",
+        "salaireLibelle": null,
         "romeLibelle": "Cuisinier / Cuisinière",
         "romeDomaineCode": "G",
         "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
         "experienceExige": "E",
         "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212BPGP"
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212FTMG"
       }
     },
     {
@@ -13783,21 +13270,21 @@
         ]
       },
       "properties": {
-        "id": "212FTMG",
-        "intitule": "SECOND DE CUISINE (H/F)",
+        "id": "212BPGP",
+        "intitule": "Cuisinier(ère) (H/F)",
         "entreprise": "Entreprise non précisée",
         "typeContrat": "CDI",
         "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - ST BENOIT",
-        "codePostal": "97437",
-        "dateCreation": "2026-08-07T11:21:25.127Z",
-        "salaireLibelle": null,
+        "communeLibelle": "974 - Saint-Benoît",
+        "codePostal": "97470",
+        "dateCreation": "2026-08-04T13:41:12.332Z",
+        "salaireLibelle": "Mensuel de 1350.0 Euros sur 12 mois",
         "romeLibelle": "Cuisinier / Cuisinière",
         "romeDomaineCode": "G",
         "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
         "experienceExige": "E",
         "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212FTMG"
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212BPGP"
       }
     },
     {
@@ -13825,33 +13312,6 @@
         "experienceExige": "E",
         "experienceLibelle": "1 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/211VJBD"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.743972,
-          -21.082542
-        ]
-      },
-      "properties": {
-        "id": "207HQSV",
-        "intitule": "Technico commercial agricole (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - ST BENOIT",
-        "codePostal": "97437",
-        "dateCreation": "2026-04-22T13:11:38.179Z",
-        "salaireLibelle": "Mensuel de 2000.0 Euros à 2800.0 Euros sur 12.0 mois",
-        "romeLibelle": "Commercial / Commerciale grands comptes et entreprises",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "2 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/207HQSV"
       }
     },
     {
@@ -14041,33 +13501,6 @@
         "experienceExige": "E",
         "experienceLibelle": "3 Mois",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212QHCP"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.743972,
-          -21.082542
-        ]
-      },
-      "properties": {
-        "id": "212PCLQ",
-        "intitule": "Commercial en immobilier H/F (H/F)",
-        "entreprise": "MAXIMMO - 97'KAZ",
-        "typeContrat": "CCE",
-        "typeContratLibelle": "Profession commerciale",
-        "communeLibelle": "974 - Saint-Benoît",
-        "codePostal": "97470",
-        "dateCreation": "2026-08-18T08:31:13.538Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère immobilier",
-        "romeDomaineCode": "C",
-        "romeDomaine": "Banque, assurance, immobilier",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212PCLQ"
       }
     },
     {
@@ -14377,33 +13810,6 @@
         ]
       },
       "properties": {
-        "id": "5050986",
-        "intitule": "OPERATEUR DE MONTAGE POUR SAFRAN (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "MIS",
-        "typeContratLibelle": "Intérim - 1 Mois",
-        "communeLibelle": "974 - Saint-Benoît",
-        "codePostal": "97437",
-        "dateCreation": "2026-07-16T12:12:12.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Opérateur / Opératrice de traitement thermique",
-        "romeDomaineCode": "H",
-        "romeDomaine": "Industrie",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5050986"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.743972,
-          -21.082542
-        ]
-      },
-      "properties": {
         "id": "5050980",
         "intitule": "TECHNICIEN DE BANCS DE TEST (H/F)",
         "entreprise": "Entreprise non précisée",
@@ -14446,33 +13852,6 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/5050977"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.743972,
-          -21.082542
-        ]
-      },
-      "properties": {
-        "id": "5871179",
-        "intitule": "Conseiller / Conseillère immobilier (H/F)",
-        "entreprise": "NEW IMMO GROUP",
-        "typeContrat": "LIB",
-        "typeContratLibelle": "Profession libérale",
-        "communeLibelle": "974 - Saint-Benoît",
-        "codePostal": "97437",
-        "dateCreation": "2026-08-10T03:19:26.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère immobilier",
-        "romeDomaineCode": "C",
-        "romeDomaine": "Banque, assurance, immobilier",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5871179"
       }
     },
     {
@@ -15040,60 +14419,6 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/210QWQD"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.446322,
-          -20.896054
-        ]
-      },
-      "properties": {
-        "id": "210HHFL",
-        "intitule": "Vendeur de fruits et légumes / caissier (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 3 Mois",
-        "communeLibelle": "974 - SAINTE-CLOTILDE",
-        "codePostal": "97400",
-        "dateCreation": "2026-06-25T07:13:46.716Z",
-        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
-        "romeLibelle": "Vendeur / Vendeuse en épicerie",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s) - en rayon fruits & légumes",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/210HHFL"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.446322,
-          -20.896054
-        ]
-      },
-      "properties": {
-        "id": "209VWLJ",
-        "intitule": "Vendeur de fruits, légumes & fromages / caissier (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 8 Mois",
-        "communeLibelle": "974 - Saint-Denis",
-        "codePostal": "97400",
-        "dateCreation": "2026-06-16T14:44:32.033Z",
-        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
-        "romeLibelle": "Vendeur / Vendeuse en épicerie",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s) - sur un poste similaire",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/209VWLJ"
       }
     },
     {
@@ -16019,33 +15344,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.481534,
-          -20.910348
-        ]
-      },
-      "properties": {
-        "id": "212BKJM",
-        "intitule": "Assistant technique installateur / Assistante technique installat (H/F)",
-        "entreprise": "POUR ETRE BIEN CHEZ SOI",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - ST DENIS",
-        "codePostal": "97400",
-        "dateCreation": "2026-08-04T11:25:55.181Z",
-        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
-        "romeLibelle": "Assistant / Assistante médico-technique",
-        "romeDomaineCode": "J",
-        "romeDomaine": "Santé",
-        "experienceExige": "E",
-        "experienceLibelle": "3 Mois - Mécanique - Electronique-Electricité",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212BKJM"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.493338,
           -20.919919
         ]
@@ -16228,6 +15526,33 @@
         "experienceExige": "E",
         "experienceLibelle": "6 Mois",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/206WNHG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.493338,
+          -20.919919
+        ]
+      },
+      "properties": {
+        "id": "213CKTN",
+        "intitule": "MAGASINIER (H/F)",
+        "entreprise": "PIECES AUTO CONCORDE",
+        "typeContrat": "CDD",
+        "typeContratLibelle": "CDD - 6 Mois",
+        "communeLibelle": "974 - STE CLOTILDE",
+        "codePostal": "97400",
+        "dateCreation": "2026-08-29T08:30:17.023Z",
+        "salaireLibelle": "Horaire de 12.31 Euros sur 12.0 mois",
+        "romeLibelle": "Magasinier / Magasinière",
+        "romeDomaineCode": "N",
+        "romeDomaine": "Transport et logistique",
+        "experienceExige": "E",
+        "experienceLibelle": "1 An(s)",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/213CKTN"
       }
     },
     {
@@ -17239,33 +16564,6 @@
         ]
       },
       "properties": {
-        "id": "212SRBM",
-        "intitule": "Enseignant / Enseignante de la conduite et de la sécurité routièr (H/F)",
-        "entreprise": "AUTO-MOTO ECOLE DU BUTOR",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Saint-Denis",
-        "codePostal": "97400",
-        "dateCreation": "2026-08-21T09:14:13.580Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Enseignant / Enseignante de la conduite et de la sécurité routière",
-        "romeDomaineCode": "K",
-        "romeDomaine": "Services à la personne et à la collectivité",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212SRBM"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.446322,
-          -20.896054
-        ]
-      },
-      "properties": {
         "id": "212TXWC",
         "intitule": "MAGASINIER STATION SERVICE (H/F)",
         "entreprise": "SARL UNIPERSONNELLE JAG",
@@ -17639,33 +16937,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.446322,
-          -20.896054
-        ]
-      },
-      "properties": {
-        "id": "212RZHJ",
-        "intitule": "Secrétaire polyvalent-e juridique (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Saint-Denis",
-        "codePostal": "97400",
-        "dateCreation": "2026-08-20T14:24:19.471Z",
-        "salaireLibelle": "Annuel de 24700.0 Euros sur 12 mois",
-        "romeLibelle": "Assistant / Assistante de service juridique",
-        "romeDomaineCode": "M",
-        "romeDomaine": "Support à l'entreprise",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s) - Sur poste similaire",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212RZHJ"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.493338,
           -20.919919
         ]
@@ -18010,33 +17281,6 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212PZQK"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.423177,
-          -20.889628
-        ]
-      },
-      "properties": {
-        "id": "212PNMD",
-        "intitule": "Electromécanicien (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - ST DENIS",
-        "codePostal": "97400",
-        "dateCreation": "2026-08-18T11:53:38.438Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Technicien expert / Technicienne experte après-vente automobile",
-        "romeDomaineCode": "I",
-        "romeDomaine": "Installation et maintenance",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212PNMD"
       }
     },
     {
@@ -18643,33 +17887,6 @@
         ]
       },
       "properties": {
-        "id": "212GTZK",
-        "intitule": "Forfaitiste H/F - CDD remplacement congé maternité (H/F)",
-        "entreprise": "TRANSCONTINENTS REUNION",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 8 Mois",
-        "communeLibelle": "974 - Saint-Denis",
-        "codePostal": "97400",
-        "dateCreation": "2026-08-10T09:51:37.906Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Assistant / Assistante chef de produit tourisme",
-        "romeDomaineCode": "G",
-        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
-        "experienceExige": "E",
-        "experienceLibelle": "2 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212GTZK"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.399505,
-          -20.908672
-        ]
-      },
-      "properties": {
         "id": "212HBPM",
         "intitule": "Employé de maison (H/F)",
         "entreprise": "ALIENOR SAS",
@@ -18685,6 +17902,33 @@
         "experienceExige": "E",
         "experienceLibelle": "6 Mois",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212HBPM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.399505,
+          -20.908672
+        ]
+      },
+      "properties": {
+        "id": "212GTZK",
+        "intitule": "Forfaitiste H/F - CDD remplacement congé maternité (H/F)",
+        "entreprise": "TRANSCONTINENTS REUNION",
+        "typeContrat": "CDD",
+        "typeContratLibelle": "CDD - 8 Mois",
+        "communeLibelle": "974 - Saint-Denis",
+        "codePostal": "97400",
+        "dateCreation": "2026-08-10T09:51:37.906Z",
+        "salaireLibelle": null,
+        "romeLibelle": "Assistant / Assistante chef de produit tourisme",
+        "romeDomaineCode": "G",
+        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
+        "experienceExige": "E",
+        "experienceLibelle": "2 An(s)",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212GTZK"
       }
     },
     {
@@ -18766,33 +18010,6 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212CLTZ"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.45742,
-          -20.893078
-        ]
-      },
-      "properties": {
-        "id": "212CKHL",
-        "intitule": "SALARIÉ.E POLYVALENT.E - PRODUCTION AUDIOVISUEL (H/F)",
-        "entreprise": "CINEKOUR / POUR L'EMERGENCE DU COURT-MET",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 6 Mois",
-        "communeLibelle": "974 - ST DENIS",
-        "codePostal": "97400",
-        "dateCreation": "2026-08-05T10:03:19.578Z",
-        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
-        "romeLibelle": "Monteur / Monteuse vidéo",
-        "romeDomaineCode": "L",
-        "romeDomaine": "Spectacle",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212CKHL"
       }
     },
     {
@@ -19603,33 +18820,6 @@
         "experienceExige": "E",
         "experienceLibelle": "2 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/209PWKS"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.423177,
-          -20.889628
-        ]
-      },
-      "properties": {
-        "id": "209LSMC",
-        "intitule": "Coordinateur SAV Maintenance H/F",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - SAINT-DENIS",
-        "codePostal": "97400",
-        "dateCreation": "2026-06-09T07:31:19.289Z",
-        "salaireLibelle": "Annuel de 30000.0 Euros sur 12 mois",
-        "romeLibelle": "Responsable logistique",
-        "romeDomaineCode": "N",
-        "romeDomaine": "Transport et logistique",
-        "experienceExige": "E",
-        "experienceLibelle": "2 An(s) - Coordination SAV",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/209LSMC"
       }
     },
     {
@@ -20771,33 +19961,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.479215,
-          -20.893099
-        ]
-      },
-      "properties": {
-        "id": "212HKGJ",
-        "intitule": "Apprenti(e) Employé(e) Polyvalent(e) de restauration (H/F)",
-        "entreprise": "BFR RESTAURATION",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 12 Mois",
-        "communeLibelle": "974 - Saint-Denis",
-        "codePostal": "97490",
-        "dateCreation": "2026-08-10T15:32:28.130Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Equipier polyvalent / Equipière polyvalente de restauration rapide",
-        "romeDomaineCode": "G",
-        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
-        "experienceExige": "E",
-        "experienceLibelle": "3 Mois",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212HKGJ"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.507593,
           -20.915298
         ]
@@ -20872,33 +20035,6 @@
         "experienceExige": "E",
         "experienceLibelle": "1 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212HKYH"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.423177,
-          -20.889628
-        ]
-      },
-      "properties": {
-        "id": "212GVWR",
-        "intitule": "OUVRIER POLYVALENT SECOND OEUVRE H/F",
-        "entreprise": "PLAQUISTE PLATRIER - SERRURERIE METALLER",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 4 Mois",
-        "communeLibelle": "974 - ST DENIS",
-        "codePostal": "97400",
-        "dateCreation": "2026-08-10T10:15:59.105Z",
-        "salaireLibelle": "Horaire de 13.0 Euros sur 12 mois",
-        "romeLibelle": "Manœuvre du Bâtiment et des Travaux Publics",
-        "romeDomaineCode": "F",
-        "romeDomaine": "Construction, bâtiment et travaux publics",
-        "experienceExige": "E",
-        "experienceLibelle": "4 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212GVWR"
       }
     },
     {
@@ -21169,33 +20305,6 @@
         "experienceExige": "E",
         "experienceLibelle": "5 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/211WMSJ"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.423177,
-          -20.889628
-        ]
-      },
-      "properties": {
-        "id": "211TJBL",
-        "intitule": " COMMERCIAL(E) B TO B H/F",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Saint-Denis",
-        "codePostal": "97400",
-        "dateCreation": "2026-07-28T12:18:37.960Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Technico-commercial / Technico-commerciale",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "2 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/211TJBL"
       }
     },
     {
@@ -21493,33 +20602,6 @@
         "experienceExige": "E",
         "experienceLibelle": "6 Mois",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/209CGQT"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.493338,
-          -20.919919
-        ]
-      },
-      "properties": {
-        "id": "208QNJC",
-        "intitule": "Ascensoriste (H/F)",
-        "entreprise": "Ascenseurs des Mascareignes",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - ST DENIS",
-        "codePostal": "97400",
-        "dateCreation": "2026-05-22T10:55:58.956Z",
-        "salaireLibelle": "Mensuel de 2000.0 Euros à 3000.0 Euros sur 12.0 mois",
-        "romeLibelle": "Technicien / Technicienne de maintenance d'installations automatisées",
-        "romeDomaineCode": "I",
-        "romeDomaine": "Installation et maintenance",
-        "experienceExige": "E",
-        "experienceLibelle": "5 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/208QNJC"
       }
     },
     {
@@ -22688,60 +21770,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.481534,
-          -20.910348
-        ]
-      },
-      "properties": {
-        "id": "212DVYF",
-        "intitule": "CHEF D'EQUIPE BANCHEUR (H/F)",
-        "entreprise": "AXION OUEST",
-        "typeContrat": "MIS",
-        "typeContratLibelle": "Intérim - 1 Mois",
-        "communeLibelle": "974 - ST DENIS",
-        "codePostal": "97400",
-        "dateCreation": "2026-08-06T13:37:36.349Z",
-        "salaireLibelle": "Horaire de 17.09 Euros à 18.53 Euros sur 12 mois",
-        "romeLibelle": "Chef / Cheffe d'équipe bâtiment",
-        "romeDomaineCode": "F",
-        "romeDomaine": "Construction, bâtiment et travaux publics",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212DVYF"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.481534,
-          -20.910348
-        ]
-      },
-      "properties": {
-        "id": "212DVXB",
-        "intitule": "Coffreur / Coffreuse (H/F)",
-        "entreprise": "AXION INTERIM SAINT DENIS",
-        "typeContrat": "MIS",
-        "typeContratLibelle": "Intérim - 1 Mois",
-        "communeLibelle": "974 - ST DENIS",
-        "codePostal": "97400",
-        "dateCreation": "2026-08-06T13:34:49.818Z",
-        "salaireLibelle": "Horaire de 15.36 Euros à 17.36 Euros sur 12 mois",
-        "romeLibelle": "Coffreur / Coffreuse",
-        "romeDomaineCode": "F",
-        "romeDomaine": "Construction, bâtiment et travaux publics",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212DVXB"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.446322,
           -20.896054
         ]
@@ -22958,33 +21986,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.459254,
-          -20.91614
-        ]
-      },
-      "properties": {
-        "id": "211VCDJ",
-        "intitule": "Carreleur / Carreleuse (H/F)",
-        "entreprise": "ETUDES TRAVAUX ET AMENAGEMENT MOBILIER",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - ST DENIS",
-        "codePostal": "97400",
-        "dateCreation": "2026-07-29T07:14:07.946Z",
-        "salaireLibelle": "Mensuel de 1900.0 Euros à 2000.0 Euros sur 12 mois",
-        "romeLibelle": "Carreleur / Carreleuse",
-        "romeDomaineCode": "F",
-        "romeDomaine": "Construction, bâtiment et travaux publics",
-        "experienceExige": "E",
-        "experienceLibelle": "2 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/211VCDJ"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.479215,
           -20.893099
         ]
@@ -23098,33 +22099,6 @@
         ]
       },
       "properties": {
-        "id": "211MXYK",
-        "intitule": "PLOMBIER (H/F)",
-        "entreprise": "AXION INTERIM",
-        "typeContrat": "MIS",
-        "typeContratLibelle": "Intérim - 1 Mois",
-        "communeLibelle": "974 - ST DENIS",
-        "codePostal": "97400",
-        "dateCreation": "2026-07-22T12:32:05.951Z",
-        "salaireLibelle": "Horaire de 12.62 Euros à 15.12 Euros sur 12.0 mois",
-        "romeLibelle": "Plombier / Plombière sanitaire",
-        "romeDomaineCode": "F",
-        "romeDomaine": "Construction, bâtiment et travaux publics",
-        "experienceExige": "E",
-        "experienceLibelle": "1 Mois",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/211MXYK"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.423177,
-          -20.889628
-        ]
-      },
-      "properties": {
         "id": "210QHDN",
         "intitule": "Mécanicien / Mécanicienne automobile",
         "entreprise": "GARAGE AUTO TECH",
@@ -23167,33 +22141,6 @@
         "experienceExige": "E",
         "experienceLibelle": "2 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/209SLWM"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.446322,
-          -20.896054
-        ]
-      },
-      "properties": {
-        "id": "209JZTR",
-        "intitule": "OUVRIER POLYVALENT BATIMENT H/F",
-        "entreprise": "ATELIER LACROIX",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 3 Mois",
-        "communeLibelle": "974 - ST DENIS",
-        "codePostal": "97400",
-        "dateCreation": "2026-06-08T06:31:16.632Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Maçon / Maçonne",
-        "romeDomaineCode": "F",
-        "romeDomaine": "Construction, bâtiment et travaux publics",
-        "experienceExige": "E",
-        "experienceLibelle": "2 An(s) - sur le même poste",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/209JZTR"
       }
     },
     {
@@ -24659,33 +23606,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.493338,
-          -20.919919
-        ]
-      },
-      "properties": {
-        "id": "5871297",
-        "intitule": "Conseiller / Conseillère immobilier (H/F)",
-        "entreprise": "NEW IMMO GROUP",
-        "typeContrat": "LIB",
-        "typeContratLibelle": "Profession libérale",
-        "communeLibelle": "974 - Saint-Denis",
-        "codePostal": "97400",
-        "dateCreation": "2026-08-10T03:19:26.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère immobilier",
-        "romeDomaineCode": "C",
-        "romeDomaine": "Banque, assurance, immobilier",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5871297"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.481534,
           -20.910348
         ]
@@ -24760,33 +23680,6 @@
         "experienceExige": "E",
         "experienceLibelle": "1 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/5668632"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.45742,
-          -20.893078
-        ]
-      },
-      "properties": {
-        "id": "5630175",
-        "intitule": "ATTACHÉ COMMERCIAL MERCEDES VUL (H/F)",
-        "entreprise": "GBH",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Saint-Denis",
-        "codePostal": "97400",
-        "dateCreation": "2026-08-01T00:32:48.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Vendeur / Vendeuse automobile",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5630175"
       }
     },
     {
@@ -25496,33 +24389,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.493338,
-          -20.919919
-        ]
-      },
-      "properties": {
-        "id": "4399054",
-        "intitule": "Ingénieur commercial / Ingénieure commerciale (H/F)",
-        "entreprise": "LHH RECRUITMENT SOLUTIONS",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Saint-Denis",
-        "codePostal": "97400",
-        "dateCreation": "2026-06-30T12:34:50.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Cadre Technico-commercial / CadreTechnico-commerciale",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "3 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/4399054"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.399505,
           -20.908672
         ]
@@ -25847,33 +24713,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.493338,
-          -20.919919
-        ]
-      },
-      "properties": {
-        "id": "8982518",
-        "intitule": "Agent / Agente immobilier (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CCE",
-        "typeContratLibelle": "Profession commerciale",
-        "communeLibelle": "974 - Saint-Denis",
-        "codePostal": "97400",
-        "dateCreation": "2026-02-11T05:21:59.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère immobilier",
-        "romeDomaineCode": "C",
-        "romeDomaine": "Banque, assurance, immobilier",
-        "experienceExige": "E",
-        "experienceLibelle": "0 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/8982518"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.667306,
           -21.37286
         ]
@@ -26029,33 +24868,6 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212HVFL"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.629028,
-          -21.339327
-        ]
-      },
-      "properties": {
-        "id": "211KHFN",
-        "intitule": "Ambulancier / Ambulancière",
-        "entreprise": "AMBULANCES SAINT JOSEPH SARL",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 12 Mois",
-        "communeLibelle": "974 - SAINT-JOSEPH",
-        "codePostal": "97480",
-        "dateCreation": "2026-07-20T12:44:36.419Z",
-        "salaireLibelle": "Horaire de 12.67 Euros sur 12 mois",
-        "romeLibelle": "Ambulancier / Ambulancière",
-        "romeDomaineCode": "J",
-        "romeDomaine": "Santé",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/211KHFN"
       }
     },
     {
@@ -26581,33 +25393,6 @@
         ]
       },
       "properties": {
-        "id": "211XNXY",
-        "intitule": "Infirmier libéral / Infirmière libérale (H/F)",
-        "entreprise": "DIJOUX MARIE JEANNE",
-        "typeContrat": "LIB",
-        "typeContratLibelle": "Profession libérale",
-        "communeLibelle": "974 - ST JOSEPH",
-        "codePostal": "97480",
-        "dateCreation": "2026-07-31T09:02:05.410Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Infirmier / Infirmière en soins généraux (IDE)",
-        "romeDomaineCode": "J",
-        "romeDomaine": "Santé",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/211XNXY"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.667306,
-          -21.37286
-        ]
-      },
-      "properties": {
         "id": "212ZTWY",
         "intitule": "Employé / Employée de rayon libre-service (H/F)",
         "entreprise": "RH INTERIM",
@@ -26704,33 +25489,6 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/6313947"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.667306,
-          -21.37286
-        ]
-      },
-      "properties": {
-        "id": "5871174",
-        "intitule": "Conseiller / Conseillère immobilier (H/F)",
-        "entreprise": "NEW IMMO GROUP",
-        "typeContrat": "LIB",
-        "typeContratLibelle": "Profession libérale",
-        "communeLibelle": "974 - Saint-Joseph",
-        "codePostal": "97480",
-        "dateCreation": "2026-08-10T03:19:26.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère immobilier",
-        "romeDomaineCode": "C",
-        "romeDomaine": "Banque, assurance, immobilier",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5871174"
       }
     },
     {
@@ -28714,33 +27472,6 @@
         ]
       },
       "properties": {
-        "id": "204QZRT",
-        "intitule": "Indépendant/e en immobilier (H/F)",
-        "entreprise": "VERNAZ-FRANCHY YANNIC",
-        "typeContrat": "CCE",
-        "typeContratLibelle": "Profession commerciale",
-        "communeLibelle": "974 - ST LEU",
-        "codePostal": "97416",
-        "dateCreation": "2026-02-27T08:37:19.804Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère immobilier",
-        "romeDomaineCode": "C",
-        "romeDomaine": "Banque, assurance, immobilier",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/204QZRT"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.308426,
-          -21.217058
-        ]
-      },
-      "properties": {
         "id": "4519941",
         "intitule": "Agent / Agente de conditionnement et de manutention (H/F)",
         "entreprise": "SCOBY DOUX",
@@ -28822,33 +27553,6 @@
         ]
       },
       "properties": {
-        "id": "5637984",
-        "intitule": "Vendeur(se) Conseil Polyvalent (H/F)",
-        "entreprise": "Groupe CréO",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 6 Mois",
-        "communeLibelle": "974 - Saint-Leu",
-        "codePostal": "97416",
-        "dateCreation": "2026-08-01T04:31:36.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère clientèle à distance",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5637984"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.308426,
-          -21.217058
-        ]
-      },
-      "properties": {
         "id": "3999760",
         "intitule": "Agent travaux canalisation H/F ",
         "entreprise": "Entreprise non précisée",
@@ -28864,33 +27568,6 @@
         "experienceExige": "E",
         "experienceLibelle": "1 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/3999760"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.308426,
-          -21.217058
-        ]
-      },
-      "properties": {
-        "id": "5871319",
-        "intitule": "Conseiller / Conseillère immobilier (H/F)",
-        "entreprise": "NEW IMMO GROUP",
-        "typeContrat": "LIB",
-        "typeContratLibelle": "Profession libérale",
-        "communeLibelle": "974 - Saint-Leu",
-        "codePostal": "97416",
-        "dateCreation": "2026-08-10T03:19:26.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère immobilier",
-        "romeDomaineCode": "C",
-        "romeDomaine": "Banque, assurance, immobilier",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5871319"
       }
     },
     {
@@ -29416,33 +28093,6 @@
         ]
       },
       "properties": {
-        "id": "212PQGP",
-        "intitule": "Boulanger (ère) (H/F)",
-        "entreprise": "BOULANGERIE PATISSERIE P HUROT",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Saint-Louis",
-        "codePostal": "97421",
-        "dateCreation": "2026-08-18T12:55:13.530Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Boulanger / Boulangère",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212PQGP"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.437961,
-          -21.264415
-        ]
-      },
-      "properties": {
         "id": "212PQKC",
         "intitule": "Pâtissier(ère) (H/F)",
         "entreprise": "BOULANGERIE PATISSERIE P HUROT",
@@ -29485,6 +28135,33 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212PQNK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.437961,
+          -21.264415
+        ]
+      },
+      "properties": {
+        "id": "212PQGP",
+        "intitule": "Boulanger (ère) (H/F)",
+        "entreprise": "BOULANGERIE PATISSERIE P HUROT",
+        "typeContrat": "CDI",
+        "typeContratLibelle": "CDI",
+        "communeLibelle": "974 - Saint-Louis",
+        "codePostal": "97421",
+        "dateCreation": "2026-08-18T12:55:13.530Z",
+        "salaireLibelle": null,
+        "romeLibelle": "Boulanger / Boulangère",
+        "romeDomaineCode": "D",
+        "romeDomaine": "Commerce, vente et grande distribution",
+        "experienceExige": "D",
+        "experienceLibelle": "Débutant accepté",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212PQGP"
       }
     },
     {
@@ -29605,60 +28282,6 @@
         ]
       },
       "properties": {
-        "id": "212FLDT",
-        "intitule": "Serveur / Serveuse de restaurant",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 6 Mois",
-        "communeLibelle": "974 - ST LOUIS",
-        "codePostal": "97421",
-        "dateCreation": "2026-08-07T07:15:13.015Z",
-        "salaireLibelle": "Horaire de 12.8 Euros sur 12 mois",
-        "romeLibelle": "Serveur / Serveuse en restauration",
-        "romeDomaineCode": "G",
-        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté - Expérience en restauration est un +",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212FLDT"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.437961,
-          -21.264415
-        ]
-      },
-      "properties": {
-        "id": "212DHPY",
-        "intitule": "Maçon coefficient 137 (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - ST LOUIS",
-        "codePostal": "97421",
-        "dateCreation": "2026-08-06T06:49:03.367Z",
-        "salaireLibelle": "Horaire de 16.73 Euros sur 12 mois",
-        "romeLibelle": "Maçon / Maçonne",
-        "romeDomaineCode": "F",
-        "romeDomaine": "Construction, bâtiment et travaux publics",
-        "experienceExige": "E",
-        "experienceLibelle": "3 Mois - Sur poste similaire",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212DHPY"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.437961,
-          -21.264415
-        ]
-      },
-      "properties": {
         "id": "212CGSH",
         "intitule": "Ébéniste (H/F)",
         "entreprise": "Entreprise non précisée",
@@ -29701,60 +28324,6 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/210XLJQ"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.437961,
-          -21.264415
-        ]
-      },
-      "properties": {
-        "id": "210VDJM",
-        "intitule": "Commercial/e aménagement intérieur (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 7 Mois",
-        "communeLibelle": "974 - Saint-Louis",
-        "codePostal": "97450",
-        "dateCreation": "2026-07-06T15:28:16.766Z",
-        "salaireLibelle": "Mensuel de 1867.02 Euros sur 12 mois",
-        "romeLibelle": "Chargé / Chargée de merchandising",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/210VDJM"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.437961,
-          -21.264415
-        ]
-      },
-      "properties": {
-        "id": "210QWNR",
-        "intitule": "Vendeur automobile (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - ST LOUIS",
-        "codePostal": "97421",
-        "dateCreation": "2026-07-02T12:54:45.106Z",
-        "salaireLibelle": "Mensuel de 2133.74 Euros sur 12 mois",
-        "romeLibelle": "Vendeur / Vendeuse automobile",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "3 An(s) - Sur le même poste",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/210QWNR"
       }
     },
     {
@@ -29902,33 +28471,6 @@
         ]
       },
       "properties": {
-        "id": "212MRBS",
-        "intitule": "Cuisinier(e) (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Saint-Louis",
-        "codePostal": "97450",
-        "dateCreation": "2026-08-14T20:07:03.983Z",
-        "salaireLibelle": "Mensuel de 1867.02 Euros sur 12 mois",
-        "romeLibelle": "Cuisinier / Cuisinière",
-        "romeDomaineCode": "G",
-        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212MRBS"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.437961,
-          -21.264415
-        ]
-      },
-      "properties": {
         "id": "212LHCL",
         "intitule": "Conseiller Vendeur Pépinière/Végétal (H/F)",
         "entreprise": "SDPMA",
@@ -30052,33 +28594,6 @@
         "experienceExige": "E",
         "experienceLibelle": "3 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212CGPM"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.437961,
-          -21.264415
-        ]
-      },
-      "properties": {
-        "id": "211ZGTV",
-        "intitule": "Poissonnier / Poissonnière (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 3 Mois",
-        "communeLibelle": "974 - ST LOUIS",
-        "codePostal": "97421",
-        "dateCreation": "2026-08-03T12:51:48.585Z",
-        "salaireLibelle": "Mensuel de 1867.03 Euros sur 12 mois",
-        "romeLibelle": "Poissonnier / Poissonnière",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/211ZGTV"
       }
     },
     {
@@ -30253,33 +28768,6 @@
         ]
       },
       "properties": {
-        "id": "212QTYS",
-        "intitule": "Vendeur / vendeuse en glacier patisserie (H/F)",
-        "entreprise": "974 FORMATION",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 12 Mois",
-        "communeLibelle": "974 - Saint-Louis",
-        "codePostal": "97450",
-        "dateCreation": "2026-08-19T13:00:27.094Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Equipier polyvalent / Equipière polyvalente de restauration rapide",
-        "romeDomaineCode": "G",
-        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212QTYS"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.437961,
-          -21.264415
-        ]
-      },
-      "properties": {
         "id": "212QVNV",
         "intitule": "Plombier (H/F)",
         "entreprise": "PROMAN 208",
@@ -30295,6 +28783,33 @@
         "experienceExige": "E",
         "experienceLibelle": "1 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212QVNV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.437961,
+          -21.264415
+        ]
+      },
+      "properties": {
+        "id": "212QTYS",
+        "intitule": "Vendeur / vendeuse en glacier patisserie (H/F)",
+        "entreprise": "974 FORMATION",
+        "typeContrat": "CDD",
+        "typeContratLibelle": "CDD - 12 Mois",
+        "communeLibelle": "974 - Saint-Louis",
+        "codePostal": "97450",
+        "dateCreation": "2026-08-19T13:00:27.094Z",
+        "salaireLibelle": null,
+        "romeLibelle": "Equipier polyvalent / Equipière polyvalente de restauration rapide",
+        "romeDomaineCode": "G",
+        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
+        "experienceExige": "D",
+        "experienceLibelle": "Débutant accepté",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212QTYS"
       }
     },
     {
@@ -30361,33 +28876,6 @@
         ]
       },
       "properties": {
-        "id": "212MWXS",
-        "intitule": "Poseur de Canalisations (H/F)",
-        "entreprise": "SHOCK ETT SUD",
-        "typeContrat": "MIS",
-        "typeContratLibelle": "Intérim - 1 Mois",
-        "communeLibelle": "974 - Saint-Louis",
-        "codePostal": "97450",
-        "dateCreation": "2026-08-17T08:46:42.644Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Poseur / Poseuse de canalisations",
-        "romeDomaineCode": "F",
-        "romeDomaine": "Construction, bâtiment et travaux publics",
-        "experienceExige": "E",
-        "experienceLibelle": "6 Mois",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212MWXS"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.437961,
-          -21.264415
-        ]
-      },
-      "properties": {
         "id": "212MHRS",
         "intitule": "Commercial en immobilier H/F (H/F)",
         "entreprise": "SAVIGNAN FABRICE",
@@ -30403,6 +28891,33 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212MHRS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.437961,
+          -21.264415
+        ]
+      },
+      "properties": {
+        "id": "212MWXS",
+        "intitule": "Poseur de Canalisations (H/F)",
+        "entreprise": "SHOCK ETT SUD",
+        "typeContrat": "MIS",
+        "typeContratLibelle": "Intérim - 1 Mois",
+        "communeLibelle": "974 - Saint-Louis",
+        "codePostal": "97450",
+        "dateCreation": "2026-08-17T08:46:42.644Z",
+        "salaireLibelle": null,
+        "romeLibelle": "Poseur / Poseuse de canalisations",
+        "romeDomaineCode": "F",
+        "romeDomaine": "Construction, bâtiment et travaux publics",
+        "experienceExige": "E",
+        "experienceLibelle": "6 Mois",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212MWXS"
       }
     },
     {
@@ -30673,33 +29188,6 @@
         "experienceExige": "E",
         "experienceLibelle": "1 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/5668678"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.437961,
-          -21.264415
-        ]
-      },
-      "properties": {
-        "id": "5871334",
-        "intitule": "Conseiller / Conseillère immobilier (H/F)",
-        "entreprise": "NEW IMMO GROUP",
-        "typeContrat": "LIB",
-        "typeContratLibelle": "Profession libérale",
-        "communeLibelle": "974 - Saint-Louis",
-        "codePostal": "97421",
-        "dateCreation": "2026-08-10T03:19:26.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère immobilier",
-        "romeDomaineCode": "C",
-        "romeDomaine": "Banque, assurance, immobilier",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5871334"
       }
     },
     {
@@ -31139,33 +29627,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.223641,
-          -21.051731
-        ]
-      },
-      "properties": {
-        "id": "212PSQF",
-        "intitule": "Vendeur(se) en bijouterie (H/F)",
-        "entreprise": "HOLDMAX",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Saint-Paul",
-        "codePostal": "97460",
-        "dateCreation": "2026-08-18T14:13:25.767Z",
-        "salaireLibelle": "Mensuel de 2080.39 Euros sur 12 mois",
-        "romeLibelle": "Vendeur / Vendeuse en accessoires de la personne",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212PSQF"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.28183,
           -21.012623
         ]
@@ -31186,6 +29647,33 @@
         "experienceExige": "E",
         "experienceLibelle": "1 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212QJCG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.223641,
+          -21.051731
+        ]
+      },
+      "properties": {
+        "id": "212PSQF",
+        "intitule": "Vendeur(se) en bijouterie (H/F)",
+        "entreprise": "HOLDMAX",
+        "typeContrat": "CDI",
+        "typeContratLibelle": "CDI",
+        "communeLibelle": "974 - Saint-Paul",
+        "codePostal": "97460",
+        "dateCreation": "2026-08-18T14:13:25.767Z",
+        "salaireLibelle": "Mensuel de 2080.39 Euros sur 12 mois",
+        "romeLibelle": "Vendeur / Vendeuse en accessoires de la personne",
+        "romeDomaineCode": "D",
+        "romeDomaine": "Commerce, vente et grande distribution",
+        "experienceExige": "E",
+        "experienceLibelle": "1 An(s)",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212PSQF"
       }
     },
     {
@@ -31760,33 +30248,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.269594,
-          -21.082132
-        ]
-      },
-      "properties": {
-        "id": "212NWJW",
-        "intitule": "Assistant / Assistante Ressources Humaines (RH) (H/F)",
-        "entreprise": "KAPTIV",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 12 Mois",
-        "communeLibelle": "974 - Saint-Paul",
-        "codePostal": "97411",
-        "dateCreation": "2026-08-17T17:23:07.133Z",
-        "salaireLibelle": "Mensuel de 1868.0 Euros à 1968.0 Euros sur 12 mois",
-        "romeLibelle": "Assistant / Assistante Ressources Humaines (RH)",
-        "romeDomaineCode": "M",
-        "romeDomaine": "Support à l'entreprise",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212NWJW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.327509,
           -20.98153
         ]
@@ -31841,33 +30302,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.284014,
-          -21.048814
-        ]
-      },
-      "properties": {
-        "id": "212PQTD",
-        "intitule": "Aide-ménagèr(e ) (H/F)",
-        "entreprise": "ALBEA SERVICES REUNION OUEST",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Saint-Paul",
-        "codePostal": "97434",
-        "dateCreation": "2026-08-18T13:29:58.020Z",
-        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
-        "romeLibelle": "Employé familial / Employée familiale",
-        "romeDomaineCode": "K",
-        "romeDomaine": "Services à la personne et à la collectivité",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212PQTD"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.327509,
           -20.98153
         ]
@@ -31895,6 +30329,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          55.284014,
+          -21.048814
+        ]
+      },
+      "properties": {
+        "id": "212PQTD",
+        "intitule": "Aide-ménagèr(e ) (H/F)",
+        "entreprise": "ALBEA SERVICES REUNION OUEST",
+        "typeContrat": "CDI",
+        "typeContratLibelle": "CDI",
+        "communeLibelle": "974 - Saint-Paul",
+        "codePostal": "97434",
+        "dateCreation": "2026-08-18T13:29:58.020Z",
+        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
+        "romeLibelle": "Employé familial / Employée familiale",
+        "romeDomaineCode": "K",
+        "romeDomaine": "Services à la personne et à la collectivité",
+        "experienceExige": "E",
+        "experienceLibelle": "1 An(s)",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212PQTD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           55.223641,
           -21.051731
         ]
@@ -31915,6 +30376,33 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212PPQW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.269594,
+          -21.082132
+        ]
+      },
+      "properties": {
+        "id": "212NWJW",
+        "intitule": "Assistant / Assistante Ressources Humaines (RH) (H/F)",
+        "entreprise": "KAPTIV",
+        "typeContrat": "CDD",
+        "typeContratLibelle": "CDD - 12 Mois",
+        "communeLibelle": "974 - Saint-Paul",
+        "codePostal": "97411",
+        "dateCreation": "2026-08-17T17:23:07.133Z",
+        "salaireLibelle": "Mensuel de 1868.0 Euros à 1968.0 Euros sur 12 mois",
+        "romeLibelle": "Assistant / Assistante Ressources Humaines (RH)",
+        "romeDomaineCode": "M",
+        "romeDomaine": "Support à l'entreprise",
+        "experienceExige": "D",
+        "experienceLibelle": "Débutant accepté",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212NWJW"
       }
     },
     {
@@ -32192,33 +30680,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.295691,
-          -21.063792
-        ]
-      },
-      "properties": {
-        "id": "212CHGV",
-        "intitule": "Auxiliaire de puériculture (H/F)",
-        "entreprise": "SOYA",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - ST PAUL",
-        "codePostal": "97411",
-        "dateCreation": "2026-08-05T09:07:02.735Z",
-        "salaireLibelle": "Mensuel de 2006.0 Euros sur 12 mois",
-        "romeLibelle": "Auxiliaire de puériculture",
-        "romeDomaineCode": "J",
-        "romeDomaine": "Santé",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212CHGV"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.298272,
           -21.035946
         ]
@@ -32266,6 +30727,33 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/208WBHV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.284014,
+          -21.048814
+        ]
+      },
+      "properties": {
+        "id": "213CKTP",
+        "intitule": "Veilleur de nuit polyvalent en extra (H/F)",
+        "entreprise": "TAMA HOTEL",
+        "typeContrat": "CDD",
+        "typeContratLibelle": "CDD - 1 Mois",
+        "communeLibelle": "974 - Saint-Paul",
+        "codePostal": "97434",
+        "dateCreation": "2026-08-29T08:32:23.081Z",
+        "salaireLibelle": null,
+        "romeLibelle": "Agent / Agente de prévention et de sécurité",
+        "romeDomaineCode": "K",
+        "romeDomaine": "Services à la personne et à la collectivité",
+        "experienceExige": "D",
+        "experienceLibelle": "Débutant accepté",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/213CKTP"
       }
     },
     {
@@ -32629,33 +31117,6 @@
         ]
       },
       "properties": {
-        "id": "212WWNT",
-        "intitule": "Commercial en electro stimulation (H/F)",
-        "entreprise": "NONESS",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Saint-Paul",
-        "codePostal": "97460",
-        "dateCreation": "2026-08-25T13:22:26.670Z",
-        "salaireLibelle": "Mensuel de 1867.02 Euros sur 12 mois",
-        "romeLibelle": "Conseiller commercial / Conseillère commerciale auprès des particuliers",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212WWNT"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.28183,
-          -21.012623
-        ]
-      },
-      "properties": {
         "id": "212XQGJ",
         "intitule": "Manoeuvre PIA (H/F)",
         "entreprise": "ADECCO",
@@ -32698,6 +31159,33 @@
         "experienceExige": "E",
         "experienceLibelle": "3 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212WWPT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.28183,
+          -21.012623
+        ]
+      },
+      "properties": {
+        "id": "212WWNT",
+        "intitule": "Commercial en electro stimulation (H/F)",
+        "entreprise": "NONESS",
+        "typeContrat": "CDI",
+        "typeContratLibelle": "CDI",
+        "communeLibelle": "974 - Saint-Paul",
+        "codePostal": "97460",
+        "dateCreation": "2026-08-25T13:22:26.670Z",
+        "salaireLibelle": "Mensuel de 1867.02 Euros sur 12 mois",
+        "romeLibelle": "Conseiller commercial / Conseillère commerciale auprès des particuliers",
+        "romeDomaineCode": "D",
+        "romeDomaine": "Commerce, vente et grande distribution",
+        "experienceExige": "D",
+        "experienceLibelle": "Débutant accepté",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212WWNT"
       }
     },
     {
@@ -32786,33 +31274,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.285337,
-          -21.029683
-        ]
-      },
-      "properties": {
-        "id": "212TPBP",
-        "intitule": "Barman / Barmaid (H/F) PRESTATAIRE INDÉPENDANT(E)",
-        "entreprise": "ESKOBAR",
-        "typeContrat": "CCE",
-        "typeContratLibelle": "Profession commerciale",
-        "communeLibelle": "974 - Saint-Paul",
-        "codePostal": "97434",
-        "dateCreation": "2026-08-21T20:06:51.202Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Barman / Barmaid",
-        "romeDomaineCode": "G",
-        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
-        "experienceExige": "E",
-        "experienceLibelle": "6 Mois - Sur le même type de poste",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212TPBP"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.295691,
           -21.063792
         ]
@@ -32867,6 +31328,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          55.285337,
+          -21.029683
+        ]
+      },
+      "properties": {
+        "id": "212TPBP",
+        "intitule": "Barman / Barmaid (H/F) PRESTATAIRE INDÉPENDANT(E)",
+        "entreprise": "ESKOBAR",
+        "typeContrat": "CCE",
+        "typeContratLibelle": "Profession commerciale",
+        "communeLibelle": "974 - Saint-Paul",
+        "codePostal": "97434",
+        "dateCreation": "2026-08-21T20:06:51.202Z",
+        "salaireLibelle": null,
+        "romeLibelle": "Barman / Barmaid",
+        "romeDomaineCode": "G",
+        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
+        "experienceExige": "E",
+        "experienceLibelle": "6 Mois - Sur le même type de poste",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212TPBP"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           55.295691,
           -21.063792
         ]
@@ -32914,33 +31402,6 @@
         "experienceExige": "E",
         "experienceLibelle": "1 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212TBCR"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.296018,
-          -21.020428
-        ]
-      },
-      "properties": {
-        "id": "212RTZZ",
-        "intitule": "Conseiller en irrigation comptoir (H/F)",
-        "entreprise": "SOC AMENAGE PERIMET HYDROAGR ILE REUNION",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Saint-Paul",
-        "codePostal": "97460",
-        "dateCreation": "2026-08-20T11:39:21.871Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère technique agricole",
-        "romeDomaineCode": "A",
-        "romeDomaine": "Agriculture et pêche, espaces naturels et espaces verts, soins aux animaux",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212RTZZ"
       }
     },
     {
@@ -33022,6 +31483,33 @@
         "experienceExige": "E",
         "experienceLibelle": "1 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212RXGQ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.296018,
+          -21.020428
+        ]
+      },
+      "properties": {
+        "id": "212RTZZ",
+        "intitule": "Conseiller en irrigation comptoir (H/F)",
+        "entreprise": "SOC AMENAGE PERIMET HYDROAGR ILE REUNION",
+        "typeContrat": "CDI",
+        "typeContratLibelle": "CDI",
+        "communeLibelle": "974 - Saint-Paul",
+        "codePostal": "97460",
+        "dateCreation": "2026-08-20T11:39:21.871Z",
+        "salaireLibelle": null,
+        "romeLibelle": "Conseiller / Conseillère technique agricole",
+        "romeDomaineCode": "A",
+        "romeDomaine": "Agriculture et pêche, espaces naturels et espaces verts, soins aux animaux",
+        "experienceExige": "E",
+        "experienceLibelle": "1 An(s)",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212RTZZ"
       }
     },
     {
@@ -33191,33 +31679,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.269594,
-          -21.082132
-        ]
-      },
-      "properties": {
-        "id": "212NJXY",
-        "intitule": "Educateur spécialisé / Educatrice spécialisée (H/F)",
-        "entreprise": "APAJH de La Réunion-DITEP James Marangé",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Saint-Paul",
-        "codePostal": "97434",
-        "dateCreation": "2026-08-17T13:16:06.827Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Educateur spécialisé / Educatrice spécialisée",
-        "romeDomaineCode": "K",
-        "romeDomaine": "Services à la personne et à la collectivité",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212NJXY"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.295691,
           -21.063792
         ]
@@ -33245,26 +31706,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.328257,
-          -20.998063
+          55.269594,
+          -21.082132
         ]
       },
       "properties": {
-        "id": "212LSRH",
-        "intitule": "Conseiller.ere de vente SFR OUEST (H/F)",
-        "entreprise": "KAPTIV",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 12 Mois",
+        "id": "212NJXY",
+        "intitule": "Educateur spécialisé / Educatrice spécialisée (H/F)",
+        "entreprise": "APAJH de La Réunion-DITEP James Marangé",
+        "typeContrat": "CDI",
+        "typeContratLibelle": "CDI",
         "communeLibelle": "974 - Saint-Paul",
-        "codePostal": "97411",
-        "dateCreation": "2026-08-14T07:54:14.726Z",
-        "salaireLibelle": "Annuel de 22405.0 Euros à 27405.0 Euros sur 12 mois",
-        "romeLibelle": "Conseiller commercial / Conseillère commerciale auprès des particuliers",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
+        "codePostal": "97434",
+        "dateCreation": "2026-08-17T13:16:06.827Z",
+        "salaireLibelle": null,
+        "romeLibelle": "Educateur spécialisé / Educatrice spécialisée",
+        "romeDomaineCode": "K",
+        "romeDomaine": "Services à la personne et à la collectivité",
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212LSRH"
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212NJXY"
       }
     },
     {
@@ -33461,26 +31922,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.285337,
-          -21.029683
+          55.328257,
+          -20.998063
         ]
       },
       "properties": {
-        "id": "212LVWM",
-        "intitule": "Serveur / Serveuse de restaurant (H/F)",
-        "entreprise": "D C P",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
+        "id": "212LSRH",
+        "intitule": "Conseiller.ere de vente SFR OUEST (H/F)",
+        "entreprise": "KAPTIV",
+        "typeContrat": "CDD",
+        "typeContratLibelle": "CDD - 12 Mois",
         "communeLibelle": "974 - Saint-Paul",
         "codePostal": "97411",
-        "dateCreation": "2026-08-14T09:29:30.621Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Serveur / Serveuse en restauration",
-        "romeDomaineCode": "G",
-        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
+        "dateCreation": "2026-08-14T07:54:14.726Z",
+        "salaireLibelle": "Annuel de 22405.0 Euros à 27405.0 Euros sur 12 mois",
+        "romeLibelle": "Conseiller commercial / Conseillère commerciale auprès des particuliers",
+        "romeDomaineCode": "D",
+        "romeDomaine": "Commerce, vente et grande distribution",
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212LVWM"
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212LSRH"
       }
     },
     {
@@ -35675,33 +34136,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.328257,
-          -20.998063
-        ]
-      },
-      "properties": {
-        "id": "212DKDQ",
-        "intitule": "Responsable de restaurant",
-        "entreprise": "LFB FABAS",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - ST PAUL",
-        "codePostal": "97411",
-        "dateCreation": "2026-08-06T09:04:23.876Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Directeur / Directrice de restaurant",
-        "romeDomaineCode": "G",
-        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
-        "experienceExige": "E",
-        "experienceLibelle": "2 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212DKDQ"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.296018,
           -21.020428
         ]
@@ -35884,33 +34318,6 @@
         "experienceExige": "E",
         "experienceLibelle": "2 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/211SDYY"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.269594,
-          -21.082132
-        ]
-      },
-      "properties": {
-        "id": "211QDMC",
-        "intitule": "Employé Polyvalent de Restauration - Secteur Ouest (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 1 Mois",
-        "communeLibelle": "974 - Saint-Paul",
-        "codePostal": "97435",
-        "dateCreation": "2026-07-24T09:19:41.340Z",
-        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
-        "romeLibelle": "Equipier polyvalent / Equipière polyvalente de restauration rapide",
-        "romeDomaineCode": "G",
-        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/211QDMC"
       }
     },
     {
@@ -36949,33 +35356,6 @@
         ]
       },
       "properties": {
-        "id": "212FQHK",
-        "intitule": "Chef / Cheffe de partie",
-        "entreprise": "LFB FABAS",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - ST PAUL",
-        "codePostal": "97411",
-        "dateCreation": "2026-08-07T10:06:26.933Z",
-        "salaireLibelle": "Mensuel de 2500.0 Euros sur 12 mois",
-        "romeLibelle": "Cuisinier / Cuisinière",
-        "romeDomaineCode": "G",
-        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
-        "experienceExige": "E",
-        "experienceLibelle": "2 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212FQHK"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.295691,
-          -21.063792
-        ]
-      },
-      "properties": {
         "id": "212FLDZ",
         "intitule": "Maçon-finisseur / Maçonne-finisseuse (H/F)",
         "entreprise": "FERNANDO ENDUITS REUNION",
@@ -37153,6 +35533,33 @@
         "experienceExige": "E",
         "experienceLibelle": "1 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/211ZHWQ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.298272,
+          -21.035946
+        ]
+      },
+      "properties": {
+        "id": "211YSBD",
+        "intitule": "Chef(fe) de partie cuisine (H/F)",
+        "entreprise": "LE SAINT ALEXIS",
+        "typeContrat": "CDI",
+        "typeContratLibelle": "CDI",
+        "communeLibelle": "974 - Saint-Paul",
+        "codePostal": "97411",
+        "dateCreation": "2026-08-01T16:11:26.029Z",
+        "salaireLibelle": "Mensuel de 2458.0 Euros à 2459.0 Euros sur 12 mois",
+        "romeLibelle": "Cuisinier / Cuisinière",
+        "romeDomaineCode": "G",
+        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
+        "experienceExige": "E",
+        "experienceLibelle": "2 An(s)",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/211YSBD"
       }
     },
     {
@@ -37376,33 +35783,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.295691,
-          -21.063792
-        ]
-      },
-      "properties": {
-        "id": "210HVMZ",
-        "intitule": "Mécanicien / Mécanicienne automobile (H/F)",
-        "entreprise": "GARDEN DISTRIBUTIONS",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - SAINT-PAUL",
-        "codePostal": "97411",
-        "dateCreation": "2026-06-25T12:39:30.729Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Mécanicien / Mécanicienne automobile",
-        "romeDomaineCode": "I",
-        "romeDomaine": "Installation et maintenance",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/210HVMZ"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.296018,
           -21.020428
         ]
@@ -37423,6 +35803,33 @@
         "experienceExige": "E",
         "experienceLibelle": "2 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/210CNHV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.296018,
+          -21.020428
+        ]
+      },
+      "properties": {
+        "id": "210CNFR",
+        "intitule": "Coffreur Plancher (H/F)",
+        "entreprise": "BMR CONSTRUCTION",
+        "typeContrat": "CDI",
+        "typeContratLibelle": "CDI",
+        "communeLibelle": "974 - ST PAUL",
+        "codePostal": "97411",
+        "dateCreation": "2026-06-22T13:27:07.929Z",
+        "salaireLibelle": null,
+        "romeLibelle": "Coffreur / Coffreuse",
+        "romeDomaineCode": "F",
+        "romeDomaine": "Construction, bâtiment et travaux publics",
+        "experienceExige": "E",
+        "experienceLibelle": "3 An(s)",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/210CNFR"
       }
     },
     {
@@ -37477,33 +35884,6 @@
         "experienceExige": "E",
         "experienceLibelle": "3 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/210CMWJ"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.296018,
-          -21.020428
-        ]
-      },
-      "properties": {
-        "id": "210CNFR",
-        "intitule": "Coffreur Plancher (H/F)",
-        "entreprise": "BMR CONSTRUCTION",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - ST PAUL",
-        "codePostal": "97411",
-        "dateCreation": "2026-06-22T13:27:07.929Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Coffreur / Coffreuse",
-        "romeDomaineCode": "F",
-        "romeDomaine": "Construction, bâtiment et travaux publics",
-        "experienceExige": "E",
-        "experienceLibelle": "3 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/210CNFR"
       }
     },
     {
@@ -38044,33 +36424,6 @@
         "experienceExige": "E",
         "experienceLibelle": "6 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/3718318"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.298272,
-          -21.035946
-        ]
-      },
-      "properties": {
-        "id": "5871260",
-        "intitule": "Conseiller / Conseillère immobilier (H/F)",
-        "entreprise": "NEW IMMO GROUP",
-        "typeContrat": "LIB",
-        "typeContratLibelle": "Profession libérale",
-        "communeLibelle": "974 - Saint-Paul",
-        "codePostal": "97411",
-        "dateCreation": "2026-08-10T03:19:26.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère immobilier",
-        "romeDomaineCode": "C",
-        "romeDomaine": "Banque, assurance, immobilier",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5871260"
       }
     },
     {
@@ -38881,33 +37234,6 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté - Être à l'aise avec le public",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/213BJSW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.479132,
-          -21.329129
-        ]
-      },
-      "properties": {
-        "id": "213BGHC",
-        "intitule": "Support SAV & Polyvalence RH/Comptabilité (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Saint-Pierre",
-        "codePostal": "97410",
-        "dateCreation": "2026-08-28T08:46:07.571Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Assistant administratif / Assistante administrative",
-        "romeDomaineCode": "M",
-        "romeDomaine": "Support à l'entreprise",
-        "experienceExige": "E",
-        "experienceLibelle": "2 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/213BGHC"
       }
     },
     {
@@ -40049,6 +38375,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          55.493938,
+          -21.302852
+        ]
+      },
+      "properties": {
+        "id": "213CKTW",
+        "intitule": "Magasinier en apprentissage (H/F)",
+        "entreprise": "PIECES AUTO CONCORDE",
+        "typeContrat": "CDD",
+        "typeContratLibelle": "CDD - 6 Mois",
+        "communeLibelle": "974 - ST PIERRE",
+        "codePostal": "97410",
+        "dateCreation": "2026-08-29T08:53:25.698Z",
+        "salaireLibelle": null,
+        "romeLibelle": "Magasinier / Magasinière",
+        "romeDomaineCode": "N",
+        "romeDomaine": "Transport et logistique",
+        "experienceExige": "E",
+        "experienceLibelle": "1 An(s)",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/213CKTW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           55.479132,
           -21.329129
         ]
@@ -41129,33 +39482,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.524623,
-          -21.330741
-        ]
-      },
-      "properties": {
-        "id": "212QHBT",
-        "intitule": "Magasinier/Magasinière en contrat d'apprentissage (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 12 Mois",
-        "communeLibelle": "974 - SAINT-PIERRE",
-        "codePostal": "97410",
-        "dateCreation": "2026-08-19T07:25:30.269Z",
-        "salaireLibelle": "Horaire de 12.31 Euros à 12.32 Euros sur 12 mois",
-        "romeLibelle": "Magasinier / Magasinière",
-        "romeDomaineCode": "N",
-        "romeDomaine": "Transport et logistique",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212QHBT"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.493938,
           -21.302852
         ]
@@ -41257,33 +39583,6 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212PBPR"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.474702,
-          -21.313111
-        ]
-      },
-      "properties": {
-        "id": "212PBNB",
-        "intitule": "MANUTENTIONNAIRE H/F (H/F)",
-        "entreprise": "LDSM RH",
-        "typeContrat": "MIS",
-        "typeContratLibelle": "Intérim - 1 Mois",
-        "communeLibelle": "974 - Saint-Pierre",
-        "codePostal": "97432",
-        "dateCreation": "2026-08-18T06:43:56.173Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Manutentionnaire",
-        "romeDomaineCode": "N",
-        "romeDomaine": "Transport et logistique",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212PBNB"
       }
     },
     {
@@ -42133,33 +40432,6 @@
         ]
       },
       "properties": {
-        "id": "212BBRL",
-        "intitule": "Mécanicien / Mécanicienne VL",
-        "entreprise": "BRAVE SERVIS",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 7 Jour(s)",
-        "communeLibelle": "974 - Saint-Pierre",
-        "codePostal": "97410",
-        "dateCreation": "2026-08-04T08:59:21.849Z",
-        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
-        "romeLibelle": "Mécanicien / Mécanicienne automobile",
-        "romeDomaineCode": "I",
-        "romeDomaine": "Installation et maintenance",
-        "experienceExige": "E",
-        "experienceLibelle": "3 An(s) - EN TANT QUE MECANICIEN VL",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212BBRL"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.524623,
-          -21.330741
-        ]
-      },
-      "properties": {
         "id": "211ZZTB",
         "intitule": "Technicien supérieur / Technicienne supérieure en conception de s (H/F)",
         "entreprise": "ALTER EGO SAINT PIERRE 1222",
@@ -42371,60 +40643,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.470461,
-          -21.285828
-        ]
-      },
-      "properties": {
-        "id": "211PJQK",
-        "intitule": "Conseiller Commercial B to B H/F",
-        "entreprise": "HYUNDAI",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 3 Mois",
-        "communeLibelle": "974 - SAINT-PIERRE",
-        "codePostal": "97410",
-        "dateCreation": "2026-07-23T13:29:23.383Z",
-        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
-        "romeLibelle": "Attaché commercial / Attachée commerciale",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "5 An(s) - Dans le même secteur à la réunion",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/211PJQK"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.429266,
-          -21.30229
-        ]
-      },
-      "properties": {
-        "id": "211PJPB",
-        "intitule": "Chef d'Équipe Agricole (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 6 Mois",
-        "communeLibelle": "974 - ST PIERRE",
-        "codePostal": "97410",
-        "dateCreation": "2026-07-23T13:20:08.021Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conducteur / Conductrice de travaux en entreprise de travaux agricoles",
-        "romeDomaineCode": "A",
-        "romeDomaine": "Agriculture et pêche, espaces naturels et espaces verts, soins aux animaux",
-        "experienceExige": "E",
-        "experienceLibelle": "3 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/211PJPB"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.524118,
           -21.359186
         ]
@@ -42587,33 +40805,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.524118,
-          -21.359186
-        ]
-      },
-      "properties": {
-        "id": "210KZVK",
-        "intitule": "Manoeuvre polyvalent (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 5 Mois",
-        "communeLibelle": "974 - ST PIERRE",
-        "codePostal": "97410",
-        "dateCreation": "2026-06-29T09:29:29.966Z",
-        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
-        "romeLibelle": "Assembleur monteur / Assembleuse monteuse",
-        "romeDomaineCode": "H",
-        "romeDomaine": "Industrie",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/210KZVK"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.474702,
           -21.313111
         ]
@@ -42742,33 +40933,6 @@
         "experienceExige": "E",
         "experienceLibelle": "2 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/213BJSC"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.479132,
-          -21.329129
-        ]
-      },
-      "properties": {
-        "id": "213BHQW",
-        "intitule": "Equipier polyvalent / Equipière polyvalente de restauration rapid (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - ST PIERRE",
-        "codePostal": "97410",
-        "dateCreation": "2026-08-28T09:35:16.588Z",
-        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
-        "romeLibelle": "Equipier polyvalent / Equipière polyvalente de restauration rapide",
-        "romeDomaineCode": "G",
-        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/213BHQW"
       }
     },
     {
@@ -43775,33 +41939,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.524623,
-          -21.330741
-        ]
-      },
-      "properties": {
-        "id": "212LTNT",
-        "intitule": "Monteur-dépanneur / Monteuse-dépanneuse en installations de froid (H/F)",
-        "entreprise": "COOL TECH",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - ST PIERRE",
-        "codePostal": "97410",
-        "dateCreation": "2026-08-14T08:42:05.300Z",
-        "salaireLibelle": "Mensuel de 2100.0 Euros à 2300.0 Euros sur 12 mois",
-        "romeLibelle": "Technicien / Technicienne de maintenance Chauffage, Ventilation et Climatisation - CVC",
-        "romeDomaineCode": "I",
-        "romeDomaine": "Installation et maintenance",
-        "experienceExige": "E",
-        "experienceLibelle": "10 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212LTNT"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.493938,
           -21.302852
         ]
@@ -43876,33 +42013,6 @@
         "experienceExige": "E",
         "experienceLibelle": "6 Mois",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212LHFD"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.524623,
-          -21.330741
-        ]
-      },
-      "properties": {
-        "id": "212KTWG",
-        "intitule": "Volontaire Technicien - Cuisinier (H/F)",
-        "entreprise": "REGIMENT SERVICE MILITAIRE ADAPTEREUNION",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 12 Mois",
-        "communeLibelle": "974 - ST PIERRE",
-        "codePostal": "97410",
-        "dateCreation": "2026-08-13T05:56:20.176Z",
-        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
-        "romeLibelle": "Cuisinier / Cuisinière",
-        "romeDomaineCode": "G",
-        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212KTWG"
       }
     },
     {
@@ -44335,33 +42445,6 @@
         "experienceExige": "E",
         "experienceLibelle": "5 An(s) - Expérience éxigée",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/211LBKX"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.452823,
-          -21.297688
-        ]
-      },
-      "properties": {
-        "id": "210SJSC",
-        "intitule": "Magasinier Cariste H/F (H/F)",
-        "entreprise": "CARRO DEPOT",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 3 Mois",
-        "communeLibelle": "974 - Saint-Pierre",
-        "codePostal": "97410",
-        "dateCreation": "2026-07-03T14:24:26.506Z",
-        "salaireLibelle": "Mensuel de 2084.0 Euros à 2085.0 Euros sur 12 mois",
-        "romeLibelle": "Magasinier / Magasinière",
-        "romeDomaineCode": "N",
-        "romeDomaine": "Transport et logistique",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/210SJSC"
       }
     },
     {
@@ -45211,60 +43294,6 @@
         ]
       },
       "properties": {
-        "id": "212KTXV",
-        "intitule": "Serveur / Serveuse (H/F)",
-        "entreprise": "REGIMENT SERVICE MILITAIRE ADAPTEREUNION",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 12 Mois",
-        "communeLibelle": "974 - ST PIERRE",
-        "codePostal": "97410",
-        "dateCreation": "2026-08-13T07:07:57.854Z",
-        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
-        "romeLibelle": "Serveur / Serveuse en restauration",
-        "romeDomaineCode": "G",
-        "romeDomaine": "Hôtellerie-restauration, tourisme, loisirs et animation",
-        "experienceExige": "E",
-        "experienceLibelle": "3 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212KTXV"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.524623,
-          -21.330741
-        ]
-      },
-      "properties": {
-        "id": "212KDQG",
-        "intitule": "Volontaire Dessinateur / Dessinatrice en bâtiment (H/F)",
-        "entreprise": "REGIMENT SERVICE MILITAIRE ADAPTEREUNION",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 12 Mois",
-        "communeLibelle": "974 - Saint-Pierre",
-        "codePostal": "97410",
-        "dateCreation": "2026-08-12T11:30:39.204Z",
-        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
-        "romeLibelle": "Dessinateur-projeteur / Dessinatrice-projeteuse de la construction",
-        "romeDomaineCode": "F",
-        "romeDomaine": "Construction, bâtiment et travaux publics",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212KDQG"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.524623,
-          -21.330741
-        ]
-      },
-      "properties": {
         "id": "212KGYK",
         "intitule": "Serveur / Serveuse (H/F)",
         "entreprise": "MERCUREST",
@@ -45314,33 +43343,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.429266,
-          -21.30229
-        ]
-      },
-      "properties": {
-        "id": "212HSVS",
-        "intitule": "Métreur / Métreuse",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 6 Mois",
-        "communeLibelle": "974 - ST PIERRE",
-        "codePostal": "97410",
-        "dateCreation": "2026-08-11T06:49:40.383Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Métreur / Métreuse de la construction",
-        "romeDomaineCode": "F",
-        "romeDomaine": "Construction, bâtiment et travaux publics",
-        "experienceExige": "E",
-        "experienceLibelle": "2 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212HSVS"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.463808,
           -21.339071
         ]
@@ -45361,33 +43363,6 @@
         "experienceExige": "E",
         "experienceLibelle": "1 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212GSZC"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.429266,
-          -21.30229
-        ]
-      },
-      "properties": {
-        "id": "212GPQZ",
-        "intitule": "Coiffeur barbier (H/F)",
-        "entreprise": "AFF'HAIR 2 STYLE",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Saint-Pierre",
-        "codePostal": "97410",
-        "dateCreation": "2026-08-08T12:35:33.763Z",
-        "salaireLibelle": "Mensuel de 2100.0 Euros à 2200.0 Euros sur 12 mois",
-        "romeLibelle": "Barbier / Barbière",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "24 Mois",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212GPQZ"
       }
     },
     {
@@ -45469,33 +43444,6 @@
         "experienceExige": "E",
         "experienceLibelle": "2 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212FPJW"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.542657,
-          -21.31373
-        ]
-      },
-      "properties": {
-        "id": "212CFLJ",
-        "intitule": "Conducteur / Conductrice d'engins de chantier (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 3 Mois",
-        "communeLibelle": "974 - Saint-Pierre",
-        "codePostal": "97410",
-        "dateCreation": "2026-08-05T06:57:09.084Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conducteur / Conductrice d'engins de chantier",
-        "romeDomaineCode": "F",
-        "romeDomaine": "Construction, bâtiment et travaux publics",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s) - Sur un même poste",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212CFLJ"
       }
     },
     {
@@ -45719,33 +43667,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.479132,
-          -21.329129
-        ]
-      },
-      "properties": {
-        "id": "209KCRT",
-        "intitule": "Mécanicien / Mécanicienne automobile (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 6 Mois",
-        "communeLibelle": "974 - Mon Caprice",
-        "codePostal": "97410",
-        "dateCreation": "2026-06-08T09:07:56.970Z",
-        "salaireLibelle": "Mensuel de 2000.0 Euros à 2100.0 Euros sur 12 mois",
-        "romeLibelle": "Mécanicien / Mécanicienne automobile",
-        "romeDomaineCode": "I",
-        "romeDomaine": "Installation et maintenance",
-        "experienceExige": "E",
-        "experienceLibelle": "3 An(s) - exigée",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/209KCRT"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.429266,
           -21.30229
         ]
@@ -45793,33 +43714,6 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/5684178"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.524623,
-          -21.330741
-        ]
-      },
-      "properties": {
-        "id": "5630176",
-        "intitule": "CONSEILLER COMMERCIAL AUDI (H/F)",
-        "entreprise": "GBH",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Saint-Pierre",
-        "codePostal": "97410",
-        "dateCreation": "2026-08-01T00:32:48.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Vendeur / Vendeuse automobile",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5630176"
       }
     },
     {
@@ -46360,33 +44254,6 @@
         "experienceExige": "E",
         "experienceLibelle": "2 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/5877444"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.463808,
-          -21.339071
-        ]
-      },
-      "properties": {
-        "id": "5871226",
-        "intitule": "Conseiller / Conseillère immobilier (H/F)",
-        "entreprise": "NEW IMMO GROUP",
-        "typeContrat": "LIB",
-        "typeContratLibelle": "Profession libérale",
-        "communeLibelle": "974 - Saint-Pierre",
-        "codePostal": "97410",
-        "dateCreation": "2026-08-10T03:19:26.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère immobilier",
-        "romeDomaineCode": "C",
-        "romeDomaine": "Banque, assurance, immobilier",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5871226"
       }
     },
     {
@@ -47533,33 +45400,6 @@
         ]
       },
       "properties": {
-        "id": "211SYZM",
-        "intitule": "REPASSEUR (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 6 Mois",
-        "communeLibelle": "974 - STE MARIE",
-        "codePostal": "97438",
-        "dateCreation": "2026-07-28T10:07:17.016Z",
-        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
-        "romeLibelle": "Repasseur / Repasseuse",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "6 Mois",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/211SYZM"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.526658,
-          -20.921316
-        ]
-      },
-      "properties": {
         "id": "211SGTM",
         "intitule": "Assistant / Assistante Ressources Humaines (RH) (H/F)",
         "entreprise": "REGAL OCEAN INDIEN",
@@ -47872,33 +45712,6 @@
         "experienceExige": "E",
         "experienceLibelle": "2 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212QHBN"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.521278,
-          -20.925844
-        ]
-      },
-      "properties": {
-        "id": "212PQTG",
-        "intitule": "ADMINISTRATEUR RESEAU (H/F)",
-        "entreprise": "PROFIL OCEAN INDIEN",
-        "typeContrat": "MIS",
-        "typeContratLibelle": "Intérim - 6 Mois",
-        "communeLibelle": "974 - STE MARIE",
-        "codePostal": "97438",
-        "dateCreation": "2026-08-18T13:30:06.710Z",
-        "salaireLibelle": "Mensuel de 2500.0 Euros à 3000.0 Euros sur 12 mois",
-        "romeLibelle": "Ingénieur / Ingénieure supervision IT Datacenter",
-        "romeDomaineCode": "M",
-        "romeDomaine": "Support à l'entreprise",
-        "experienceExige": "E",
-        "experienceLibelle": "3 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212PQTG"
       }
     },
     {
@@ -48554,33 +46367,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.521278,
-          -20.925844
-        ]
-      },
-      "properties": {
-        "id": "212BMZC",
-        "intitule": "Chef de projet ENR (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Sainte-Marie",
-        "codePostal": "97438",
-        "dateCreation": "2026-08-04T12:37:29.632Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Ingénieur / Ingénieure énergies renouvelables",
-        "romeDomaineCode": "H",
-        "romeDomaine": "Industrie",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s) - Sur le même type de poste",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212BMZC"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.526658,
           -20.921316
         ]
@@ -49207,33 +46993,6 @@
         ]
       },
       "properties": {
-        "id": "210VTVH",
-        "intitule": "Coiffeur/coiffeuse (H/F)",
-        "entreprise": "MEHLINGER JOELLE",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 6 Mois",
-        "communeLibelle": "974 - ST DENIS",
-        "codePostal": "97438",
-        "dateCreation": "2026-07-07T08:25:39.659Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Coiffeur / Coiffeuse",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "2 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/210VTVH"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.521278,
-          -20.925844
-        ]
-      },
-      "properties": {
         "id": "212ZMMV",
         "intitule": "Electricien (H/F)",
         "entreprise": "PROFIL OCEAN INDIEN",
@@ -49492,33 +47251,6 @@
         "experienceExige": "E",
         "experienceLibelle": "3 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212FLRG"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.526658,
-          -20.921316
-        ]
-      },
-      "properties": {
-        "id": "212DVVZ",
-        "intitule": "Ferrailleur / Ferrailleuse du BTP (h/f) (H/F)",
-        "entreprise": "AXION OUEST SAINT-DENIS",
-        "typeContrat": "MIS",
-        "typeContratLibelle": "Intérim - 1 Mois",
-        "communeLibelle": "974 - STE MARIE",
-        "codePostal": "97438",
-        "dateCreation": "2026-08-06T13:31:59.365Z",
-        "salaireLibelle": "Horaire de 12.82 Euros à 17.36 Euros sur 12 mois",
-        "romeLibelle": "Ferrailleur / Ferrailleuse du BTP",
-        "romeDomaineCode": "F",
-        "romeDomaine": "Construction, bâtiment et travaux publics",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212DVVZ"
       }
     },
     {
@@ -49796,33 +47528,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.526658,
-          -20.921316
-        ]
-      },
-      "properties": {
-        "id": "5630108",
-        "intitule": "TECHNICIEN PHOTOVOLTAIQUE (H/F)",
-        "entreprise": "GBH",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Sainte-Marie",
-        "codePostal": "97438",
-        "dateCreation": "2026-08-01T00:32:48.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Installateur mainteneur / Installatrice mainteneuse en systèmes solaires, thermiques et photovoltaïques",
-        "romeDomaineCode": "F",
-        "romeDomaine": "Construction, bâtiment et travaux publics",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5630108"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.509874,
           -20.915304
         ]
@@ -50012,33 +47717,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          55.521278,
-          -20.925844
-        ]
-      },
-      "properties": {
-        "id": "5871318",
-        "intitule": "Conseiller / Conseillère immobilier (H/F)",
-        "entreprise": "NEW IMMO GROUP",
-        "typeContrat": "LIB",
-        "typeContratLibelle": "Profession libérale",
-        "communeLibelle": "974 - Sainte-Marie",
-        "codePostal": "97438",
-        "dateCreation": "2026-08-10T03:19:26.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère immobilier",
-        "romeDomaineCode": "C",
-        "romeDomaine": "Banque, assurance, immobilier",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5871318"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           55.548467,
           -20.929562
         ]
@@ -50086,33 +47764,6 @@
         "experienceExige": "E",
         "experienceLibelle": "5 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/5590571"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.521278,
-          -20.925844
-        ]
-      },
-      "properties": {
-        "id": "5568477",
-        "intitule": "Technico-commercial / Technico-commerciale (H/F)",
-        "entreprise": "LHH RECRUITMENT SOLUTIONS",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Sainte-Marie",
-        "codePostal": "97438",
-        "dateCreation": "2026-07-30T03:23:19.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Technico-commercial / Technico-commerciale",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5568477"
       }
     },
     {
@@ -51070,33 +48721,6 @@
         ]
       },
       "properties": {
-        "id": "5871135",
-        "intitule": "Conseiller / Conseillère immobilier (H/F)",
-        "entreprise": "NEW IMMO GROUP",
-        "typeContrat": "LIB",
-        "typeContratLibelle": "Profession libérale",
-        "communeLibelle": "974 - Sainte-Suzanne",
-        "codePostal": "97441",
-        "dateCreation": "2026-08-10T03:19:26.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère immobilier",
-        "romeDomaineCode": "C",
-        "romeDomaine": "Banque, assurance, immobilier",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5871135"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.620323,
-          -20.951921
-        ]
-      },
-      "properties": {
         "id": "5872358",
         "intitule": "Agent commercial / Agente commerciale en immobilier (H/F)",
         "entreprise": "MEGAGENCE",
@@ -51880,33 +49504,6 @@
         ]
       },
       "properties": {
-        "id": "211YDMB",
-        "intitule": "Chargé de la paie / ADP (H/F)",
-        "entreprise": "EXCELLENCE",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - Le Tampon",
-        "codePostal": "97430",
-        "dateCreation": "2026-07-31T14:27:28.119Z",
-        "salaireLibelle": "Annuel de 33000.0 Euros à 36000.0 Euros sur 12 mois",
-        "romeLibelle": "Gestionnaire paie",
-        "romeDomaineCode": "M",
-        "romeDomaine": "Support à l'entreprise",
-        "experienceExige": "E",
-        "experienceLibelle": "24 Mois",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/211YDMB"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.537316,
-          -21.311069
-        ]
-      },
-      "properties": {
         "id": "211PLFX",
         "intitule": "Alternance CAP Boucherie (H/F)",
         "entreprise": "EXCELLENCE",
@@ -51949,33 +49546,6 @@
         "experienceExige": "E",
         "experienceLibelle": "12 Mois",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/211LBSK"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.537316,
-          -21.311069
-        ]
-      },
-      "properties": {
-        "id": "210ZBSD",
-        "intitule": "Pâtissier / Pâtissière (H/F)",
-        "entreprise": "LE CHOCAMANDE",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - LE TAMPON",
-        "codePostal": "97418",
-        "dateCreation": "2026-07-09T10:44:21.949Z",
-        "salaireLibelle": "Horaire de 12.7 Euros sur 12 mois",
-        "romeLibelle": "Pâtissier / Pâtissière",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/210ZBSD"
       }
     },
     {
@@ -52165,33 +49735,6 @@
         "experienceExige": "D",
         "experienceLibelle": "Débutant accepté",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/212LFVF"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.534596,
-          -21.256994
-        ]
-      },
-      "properties": {
-        "id": "212KYYN",
-        "intitule": "Coiffeur / Coiffeuse (H/F)",
-        "entreprise": "Entreprise non précisée",
-        "typeContrat": "CDD",
-        "typeContratLibelle": "CDD - 6 Mois",
-        "communeLibelle": "974 - LE TAMPON",
-        "codePostal": "97418",
-        "dateCreation": "2026-08-13T10:22:03.766Z",
-        "salaireLibelle": "Mensuel de 1867.02 Euros sur 12 mois",
-        "romeLibelle": "Coiffeur / Coiffeuse",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/212KYYN"
       }
     },
     {
@@ -52582,33 +50125,6 @@
         ]
       },
       "properties": {
-        "id": "210ZBLR",
-        "intitule": "Vendeur /vendeuse en boulangerie -patisserie (H/F)",
-        "entreprise": "LE CHOCOAMANDE",
-        "typeContrat": "CDI",
-        "typeContratLibelle": "CDI",
-        "communeLibelle": "974 - LE TAMPON",
-        "codePostal": "97418",
-        "dateCreation": "2026-07-09T10:40:22.383Z",
-        "salaireLibelle": "Horaire de 12.31 Euros sur 12 mois",
-        "romeLibelle": "Vendeur / Vendeuse en épicerie",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "1 An(s)",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/210ZBLR"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.537316,
-          -21.311069
-        ]
-      },
-      "properties": {
         "id": "210VSRC",
         "intitule": "Bancheur-coffreur / Bancheuse-coffreuse (H/F)",
         "entreprise": "Entreprise non précisée",
@@ -52759,33 +50275,6 @@
         "experienceExige": "E",
         "experienceLibelle": "1 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/5668643"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.55286,
-          -21.218567
-        ]
-      },
-      "properties": {
-        "id": "5871223",
-        "intitule": "Conseiller / Conseillère immobilier (H/F)",
-        "entreprise": "NEW IMMO GROUP",
-        "typeContrat": "LIB",
-        "typeContratLibelle": "Profession libérale",
-        "communeLibelle": "974 - Tampon",
-        "codePostal": "97418",
-        "dateCreation": "2026-08-10T03:19:26.000Z",
-        "salaireLibelle": null,
-        "romeLibelle": "Conseiller / Conseillère immobilier",
-        "romeDomaineCode": "C",
-        "romeDomaine": "Banque, assurance, immobilier",
-        "experienceExige": "D",
-        "experienceLibelle": "Débutant accepté",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/5871223"
       }
     },
     {
