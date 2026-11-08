@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generatedAt": "2026-11-07T10:01:42.077029+00:00",
+  "generatedAt": "2026-11-08T10:16:04.724829+00:00",
   "count": 1267,
   "features": [
     {
@@ -19102,33 +19102,6 @@
         ]
       },
       "properties": {
-        "id": "215XDDH",
-        "intitule": "UN.E HÔTE.SSE DE CAISSE (H/F)",
-        "entreprise": "ALTER&CO",
-        "typeContrat": "MIS",
-        "typeContratLibelle": "Intérim - 1 Mois",
-        "communeLibelle": "974 - Saint-Paul",
-        "codePostal": "97411",
-        "dateCreation": "2026-11-02T07:23:05.077Z",
-        "salaireLibelle": "Horaire de 12.31 Euros",
-        "romeLibelle": "Hôte / Hôtesse de caisse",
-        "romeDomaineCode": "D",
-        "romeDomaine": "Commerce, vente et grande distribution",
-        "experienceExige": "E",
-        "experienceLibelle": "6 Mois",
-        "url": "https://candidat.francetravail.fr/offres/recherche/detail/215XDDH"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          55.236148,
-          -21.091959
-        ]
-      },
-      "properties": {
         "id": "215XDDC",
         "intitule": "UN.E HÔTE.SSE DE CAISSE (H/F)",
         "entreprise": "ALTER&CO",
@@ -19171,6 +19144,33 @@
         "experienceExige": "E",
         "experienceLibelle": "2 An(s)",
         "url": "https://candidat.francetravail.fr/offres/recherche/detail/215YLNB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.236148,
+          -21.091959
+        ]
+      },
+      "properties": {
+        "id": "215XDDH",
+        "intitule": "UN.E HÔTE.SSE DE CAISSE (H/F)",
+        "entreprise": "ALTER&CO",
+        "typeContrat": "MIS",
+        "typeContratLibelle": "Intérim - 1 Mois",
+        "communeLibelle": "974 - Saint-Paul",
+        "codePostal": "97411",
+        "dateCreation": "2026-11-02T07:23:05.077Z",
+        "salaireLibelle": "Horaire de 12.31 Euros",
+        "romeLibelle": "Hôte / Hôtesse de caisse",
+        "romeDomaineCode": "D",
+        "romeDomaine": "Commerce, vente et grande distribution",
+        "experienceExige": "E",
+        "experienceLibelle": "6 Mois",
+        "url": "https://candidat.francetravail.fr/offres/recherche/detail/215XDDH"
       }
     },
     {
